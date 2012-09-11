@@ -43,8 +43,13 @@ class LFSR {
         return exit
     }
     
-    def getBit = {
+    def getBit() {
         (internal & 2**(size-1)) >> (size-1)
+    }
+    
+    def setBit(int bit) {
+        
+        internal = internal ^ (0x01 & bit)
     }
     
     def getInt = {

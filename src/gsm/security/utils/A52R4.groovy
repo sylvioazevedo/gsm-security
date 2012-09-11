@@ -9,20 +9,19 @@ package gsm.security.utils
  *
  * @author sazevedo
  */
-class R2 extends LFSR {
+class A52R4 extends LFSR {
     	
-    R2() {
-        super("R2", 22)
+    A52R4() {
+        super("R4", 21)
     }
     
     def clock = {
     
-        int p21 = (internal & 2**21) >> 21
-        int p20 = (internal & 2**20) >> 20
+        int p16 = (internal & 2**16) >> 16
+        int p11 = (internal & 2**11) >> 11
         
-        int result = p21 ^ p20
+        int result = p16 ^ p11
         
         internal = (internal << 1) + (result & 1)
     }
 }
-

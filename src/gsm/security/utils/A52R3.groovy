@@ -9,9 +9,9 @@ package gsm.security.utils
  *
  * @author sazevedo
  */
-class R3 extends LFSR {
+class A52R3 extends LFSR {
     	
-    R3() {
+    A52R3() {
         super("R3", 23)
     }
     
