@@ -57,7 +57,7 @@ class A52 {
     }
     
     def getBit = {
-        
+        return 0
     }
     
     def showInternals = {
