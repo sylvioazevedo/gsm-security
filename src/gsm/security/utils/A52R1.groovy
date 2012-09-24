@@ -23,8 +23,8 @@ class A52R1 extends LFSR {
         int p13 = (internal & 2**13) >> 13
         
         int result = p18 ^ p17
-        result ^= 16
-        result ^= 13
+        result ^= p16
+        result ^= p13
         
         internal = (internal << 1) + (result & 1)
     }
