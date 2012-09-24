@@ -23,8 +23,8 @@ class A52R3 extends LFSR {
         int p07 = (internal & 2**7 ) >> 7
         
         int result = p22 ^ p21
-        result ^= 20
-        result ^= 07
+        result ^= p20
+        result ^= p07
         
         internal = (internal << 1) + (result & 1)
     }
