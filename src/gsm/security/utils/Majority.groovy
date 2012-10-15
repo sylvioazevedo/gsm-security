@@ -13,7 +13,12 @@ class Majority {
     
     static def calc(def a, def b, def c) {
         
-        return (a*b + b*c + a*c) > 0 ? 1 : 0
+        int sum = (a != 0) + (b != 0) + (c != 0);
+        
+        if (sum >= 2)
+            return 1;
+        else
+            return 0;
     }
 }
 

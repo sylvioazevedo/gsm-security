@@ -13,14 +13,19 @@ class LFSR {
     
     def name
     
-    int size
-    int count = 1
-    int internal = 0
+    int  size
+    int  count = 1
+    long internal = 0
     
-    LFSR(def name, int size) {
+    long mask
+    long tap
+    
+    LFSR(def name, int size, long mask, long tap) {
     
         this.name = name
         this.size = size
+        this.mask = mask
+        this.tap = tap
     }
     
     def setKey(def key) {
@@ -32,7 +37,26 @@ class LFSR {
         "${name}: Clk:${count++}: ${showInternal()}"
     }
     
-    def showInternal = {
+    
+    long parity(long x) {
+
+       x ^= (x >> 16)
+       x ^= (x >> 8)
+       x ^= (x >> 4)
+       x ^= (x >> 2)
+       x ^= (x >> 1)
+
+       return (x & 1)
+    }
+    
+    def clock() {
+
+        long t = internal & tap
+        internal = (internal << 1) & mask
+        internal |= parity(t)
+    }
+    
+    String toString() {
         
         def exit = ""
         
@@ -49,7 +73,7 @@ class LFSR {
     
     def setBit(int bit) {
         
-        internal = internal ^ (0x01 & bit)
+        internal ^= (0x01 & bit)
     }
     
     def getInt = {

@@ -10,19 +10,13 @@ package gsm.security.utils
  * @author sazevedo
  */
 class A52R2 extends LFSR {
+    
+    // define mask and tapped bits.
+    static final long mask = 0x3FFFFF
+    static final long tap = 0x300000
     	
     A52R2() {
-        super("R2", 22)
-    }
-    
-    def clock = {
-    
-        int p21 = (internal & 2**21) >> 21
-        int p20 = (internal & 2**20) >> 20
-        
-        int result = p21 ^ p20
-        
-        internal = (internal << 1) + (result & 1)
+        super("R2", 22, mask, tap)
     }
 }
 
