@@ -19,7 +19,11 @@ public class GsmSecurity {
         
         A52 a52 = new A52();
         
-        a52.keySetup(7, 0);
+        //long key = (long) 0x00fcffffffffffffL;
+        
+        long key = (long) 0xfffffffffffffc00L;
+        
+        a52.keySetup(key, 0x21);
         
     }
 }
