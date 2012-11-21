@@ -24,6 +24,5 @@ public class GsmSecurity {
         long key = (long) 0xfffffffffffffc00L;
         
         a52.keySetup(key, 0x21);
-        
     }
 }

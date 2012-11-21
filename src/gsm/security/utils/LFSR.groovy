@@ -68,7 +68,9 @@ class LFSR {
     }
     
     def getBit() {
-        (internal & 2**(size-1)) >> (size-1)
+        //(internal & 2**(size-1)) >> (size-1)
+        
+        (internal >> size - 1) & 0x01
     }
     
     def setBit(int bit) {

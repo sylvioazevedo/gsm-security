@@ -9,6 +9,9 @@ import gsm.security.utils.A52R1
 import gsm.security.utils.A52R2
 import gsm.security.utils.A52R3
 import gsm.security.utils.A52R4
+import gsm.security.utils.Majority
+
+
 /**
  *
  * @author sazevedo
@@ -44,6 +47,7 @@ class A52 {
         
         // initialize with the initial vector
         println "\nSetting the initial vector"
+        
         (0..21).each {
             
             // clock all registers once
@@ -56,7 +60,7 @@ class A52 {
             r3.bit = ivBit
             r4.bit = ivBit
             
-            println "${it}:${r4.toString()}"
+            //println "${it}:${r4.toString()}"
         }
         
         // force some bits to one.
@@ -67,22 +71,30 @@ class A52 {
         // set r4, main weak in this algorithm
         r4.internal |= (1 << 10)
         
-        println "${r4.toString()}"
+        
+        (0..100).each { 
+            clock()
+//            println "R1: ${r1.toString()}"
+//            println "R2: ${r1.toString()}"
+//            println "R3: ${r1.toString()}"
+//            
+//            println "${it}: ${getBit()}"
+        }
     }
     
     def clock() {
         
-        def majority = Majority.calc(r4 & A52R4.tapR1, r4 & A52R4.tapR2, r4 & A52R4.tapR3)
+        def majority = Majority.calc(r4.internal & A52R4.tapR1, r4.internal & A52R4.tapR2, r4.internal & A52R4.tapR3)
         
-        if (((r4 & A52R4.tapR1) != 0) == majority) {
+        if (((r4.internal & A52R4.tapR1) != 0) == majority) {
             r1.clock();
         }
 
-        if (((r4 & A52R4.tapR2) != 0) == majority) {
+        if (((r4.internal & A52R4.tapR2) != 0) == majority) {
             r2.clock();
         }
 
-        if ((((R4 & A52R4.tapR3) != 0) == majority)) {
+        if ((((r4.internal & A52R4.tapR3) != 0) == majority)) {
             r3.clock();
         }
 
@@ -103,6 +115,9 @@ class A52 {
     
     def getBit = {
         
+        int topBits = r1.bit ^ r2.bit ^r3.bit
+        
+        return topBits
     }
     
     def showInternals = {
