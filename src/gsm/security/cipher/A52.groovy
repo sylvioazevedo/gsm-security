@@ -72,6 +72,13 @@ class A52 {
         r4.internal |= (1 << 10)
         
         // show R1, R2, R3 and R4
+//        println "R1: ${r1.toString()}"
+//        println "R2: ${r2.toString()}"
+//        println "R3: ${r3.toString()}"
+//        println "R4: ${r4.toString()}"
+        
+        clock();
+        
         println "R1: ${r1.toString()}"
         println "R2: ${r2.toString()}"
         println "R3: ${r3.toString()}"
