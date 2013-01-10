@@ -60,7 +60,7 @@ class A52 {
             r3.bit = ivBit
             r4.bit = ivBit
             
-            //println "${it}:${r4.toString()}"
+            //println "${it}:${r3.toString()}"
         }
         
         // force some bits to one.
@@ -71,6 +71,11 @@ class A52 {
         // set r4, main weak in this algorithm
         r4.internal |= (1 << 10)
         
+        // show R1, R2, R3 and R4
+        println "R1: ${r1.toString()}"
+        println "R2: ${r2.toString()}"
+        println "R3: ${r3.toString()}"
+        println "R4: ${r4.toString()}"
         
         (0..100).each { 
             clock()

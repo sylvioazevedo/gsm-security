@@ -60,8 +60,8 @@ class LFSR {
         
         def exit = ""
         
-        (0..size-1).each { it
-            exit = "${(internal & 2**(it)) >> it}${exit}"
+        (0..size-1).each { d ->
+            exit = "${(internal & 2**(d)) >> d}${exit}"
         }
         
         return exit
