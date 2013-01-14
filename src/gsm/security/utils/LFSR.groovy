@@ -54,6 +54,8 @@ class LFSR {
         long t = internal & tap
         internal = (internal << 1) & mask
         internal |= parity(t)
+        
+        return internal
     }
     
     String toString() {

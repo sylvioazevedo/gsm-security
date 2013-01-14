@@ -24,6 +24,8 @@ class A52 {
     def r3 = new A52R3()
     def r4 = new A52R4()
     
+    static def delayBit = 0;
+    
     def keySetup(long key, int iv) {
         
         // initialize with the key
@@ -71,45 +73,30 @@ class A52 {
         // set r4, main weak in this algorithm
         r4.internal |= (1 << 10)
         
-        // show R1, R2, R3 and R4
-//        println "R1: ${r1.toString()}"
-//        println "R2: ${r2.toString()}"
-//        println "R3: ${r3.toString()}"
-//        println "R4: ${r4.toString()}"
-        
-        clock();
-        
-        println "R1: ${r1.toString()}"
-        println "R2: ${r2.toString()}"
-        println "R3: ${r3.toString()}"
-        println "R4: ${r4.toString()}"
-        
-        (0..100).each { 
+        (0..99).each { 
             clock()
-//            println "R1: ${r1.toString()}"
-//            println "R2: ${r1.toString()}"
-//            println "R3: ${r1.toString()}"
-//            
-//            println "${it}: ${getBit()}"
+            getBit()
         }
+        
+        getBit()
     }
     
     def clock() {
         
         def majority = Majority.calc(r4.internal & A52R4.tapR1, r4.internal & A52R4.tapR2, r4.internal & A52R4.tapR3)
         
-        if (((r4.internal & A52R4.tapR1) != 0) == majority) {
+        if (((r4.internal & A52R4.tapR1) != 0) == (majority == 1)) {
             r1.clock();
-        }
+        }        
 
-        if (((r4.internal & A52R4.tapR2) != 0) == majority) {
+        if (((r4.internal & A52R4.tapR2) != 0) == (majority == 1)) {
             r2.clock();
         }
 
-        if ((((r4.internal & A52R4.tapR3) != 0) == majority)) {
+        if (((r4.internal & A52R4.tapR3) != 0) == (majority == 1)) {
             r3.clock();
-        }
-
+        }        
+        
         r4.clock();
     }
     
@@ -125,11 +112,18 @@ class A52 {
         r4.clock()
     }
     
-    def getBit = {
+    def getBit() {
         
-        int topBits = r1.bit ^ r2.bit ^r3.bit
+        int topBit = (r1.bit ^ r2.bit ^ r3.bit) & 0x01;
+    
+        def nowBit = delayBit;
+    
+        delayBit = (topBit ^ 
+                    Majority.calc(r1.internal & 0x8000, (~r1.internal)&0x4000, r1.internal & 0x1000) ^
+                    Majority.calc((~r2.internal)&0x10000, r2.internal & 0x2000, r2.internal & 0x200) ^
+                    Majority.calc(r3.internal & 0x40000, r3.internal & 0x10000, (~r3.internal)&0x2000))
         
-        return topBits
+        return nowBit
     }
     
     def showInternals = {

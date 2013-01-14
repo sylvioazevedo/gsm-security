@@ -24,5 +24,10 @@ public class GsmSecurity {
         long key = (long) 0xfffffffffffffc00L;
         
         a52.keySetup(key, 0x21);
+        
+        for(int i = 0; i < 114; i++) {
+            a52.clock();
+            System.out.print(a52.getBit());
+        }
     }
 }
