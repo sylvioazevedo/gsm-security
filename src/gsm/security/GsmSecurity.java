@@ -5,6 +5,7 @@
 package gsm.security;
 
 import gsm.security.cipher.A52;
+import gsm.security.cryptanalysis.A52HackTool;
 
 /**
  *
@@ -29,5 +30,9 @@ public class GsmSecurity {
             a52.clock();
             System.out.print(a52.getBit());
         }
+        System.out.println();
+        
+        new A52HackTool().run(args);
+        
     }
 }
