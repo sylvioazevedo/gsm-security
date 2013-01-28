@@ -62,6 +62,14 @@ class A52HackTool {
     
     public void run(String[] args) {
         
+        // check if args is empty.
+        if(args.size() == 0) {
+            
+            println showSintax();
+            
+            return;
+        }
+        
         println "Arguments: ${args}"
         
         def operation = Operation.OP_NONE
@@ -130,8 +138,8 @@ class A52HackTool {
                         return -1;
                     }
                     
-                    destFile = args[i+1]
-                    println "Target file accepted: ${destFile}"
+                    key = args[i+1]
+                    println "Key accepted: ${key}"
                     break;
                     
                 // gsm packet frame number definition
@@ -141,8 +149,8 @@ class A52HackTool {
                         return -1;
                     }
                     
-                    destFile = args[i+1]
-                    println "Target file accepted: ${destFile}"
+                    frame = args[i+1]
+                    println "Frame accepted: ${frame}"
                     break;
                     
                 // help
