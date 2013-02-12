@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package gsm.security.cryptanalysis
+package gsm.security.utils
 
 /**
  *
@@ -27,12 +27,12 @@ class Constants {
     
     // output taps
     static final int R1_OUTTAP_1 = 12
-    static final int R1_OUTTAP_2 = 14 //!< Output Tap to be xored with 1
+    static final int R1_OUTTAP_2 = 14 // Output Tap to be xored with 1
     static final int R1_OUTTAP_3 = 15
     static final int R2_OUTTAP_1 =  9
     static final int R2_OUTTAP_2 = 13
-    static final int R2_OUTTAP_3 = 16 //!< Output Tap to be xored with 1
-    static final int R3_OUTTAP_1 = 13 //!< Output Tap to be xored with 1
+    static final int R2_OUTTAP_3 = 16 // Output Tap to be xored with 1
+    static final int R3_OUTTAP_1 = 13 // Output Tap to be xored with 1
     static final int R3_OUTTAP_2 = 16
     static final int R3_OUTTAP_3 = 18
     
@@ -101,6 +101,94 @@ class Constants {
      * of the line will be half-loaded with two bytes.
      */
     static final int RESOLUTION_MATRIX_INT_WIDTH = ((REGS_TOTAL_VARS+31)/32)
-	
+    
+    
+    /** 
+     * Data length relative to full code, input size
+     */
+
+    /**
+     * Length of a source word (in bits)
+     */
+    static final int SOURCEWORD_LENGTH = 184
+
+
+
+
+    /**
+     * Constants relative to specific encoders/decoders
+     */
+
+    /**
+     * Fire Encoding 
+     *
+     * We consider here the following polynomial for GSM Fire code (SACCH):
+     *                (D^23 + 1)*(D^17 + D^3 + 1)
+     * which can be developped into:
+     *             D^40 + D^26 + D^23 + D^17 + D^3 + D^0
+     * The polynomial is divided into two parts which can be recombined using the following formula:
+     * (UPPER_POLYNOMIAL << 9) | (LOWER_POLYNOMIAL >> 23)
+     * Note that the polynomial representation is mirrored compared to 0x80024100 || 0x04800000 !
+     */
+    static final int UPPER_POLYNOMIAL = ((int)0x90004120)                      // Upper polynomial representation
+    static final int LOWER_POLYNOMIAL = ((int)0x800000)                        // Lower polynomial representation
+
+    static final int FIRE_POLYNOMIAL_LENGTH = 41                                // Meaningful length (in bits)
+    static final int LOWER_PADDINGBITS = (32*2 - FIRE_POLYNOMIAL_LENGTH)        // Number of padding bits
+
+    /**
+     * Fire code input length (in bits)
+     */
+    static final int FIRE_SOURCE_LENGTH = SOURCEWORD_LENGTH                                 // 184
+    
+    /** 
+     * Fire code output length (in bits)
+     */
+    static final int FIRE_CODE_LENGTH = (FIRE_SOURCE_LENGTH + FIRE_POLYNOMIAL_LENGTH - 1)   // 224
+    
+    /**
+     * Fire code CRC length (in bits)
+     */
+    static final int FIRE_CRC_LENGTH = (FIRE_CODE_LENGTH - FIRE_SOURCE_LENGTH)              // 40
+
+
+    /**
+     * Convolution
+     * Before convolution is applied to a fired message, 4bits are appended to the input (all 0s)
+     */
+
+    /**
+     * Convolution input length (in bits)
+     */
+    static final int CONVOLUTION_SOURCE_LENGTH = (FIRE_CODE_LENGTH + 4)                     // 228
+    
+    /**
+     * Convolution output length (in bits)
+     */
+    static final int CONVOLUTION_CODE_LENGTH = (CONVOLUTION_SOURCE_LENGTH * 2)              // 456
+
+
+    /** 
+     * Interleaving
+     */
+
+    /**
+     * Convolution input length (in bits)
+     */
+    static final int INTERLEAVING_LENGTH = CONVOLUTION_CODE_LENGTH                          // 456
+
+    /**
+     * Data length relative to full code, output size
+     */
+
+    /**
+     * Length of a code word (in bits)
+     */
+    static final int CODEWORD_LENGTH = INTERLEAVING_LENGTH                                   // 456
+
+    /**
+     * Syndrome length (in bits), defined by the code parity-check matrix
+     */
+    static final int SYNDROME_LENGTH = (CODEWORD_LENGTH - SOURCEWORD_LENGTH)                 // 272
 }
 

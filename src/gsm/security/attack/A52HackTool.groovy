@@ -2,7 +2,7 @@
  * Reimplementation in groovy code of Nicolas Paglieri & Olivier Benjamin 
  * A52HackTool.
  */
-package gsm.security.cryptanalysis
+package gsm.security.attack
 
 /**
  *

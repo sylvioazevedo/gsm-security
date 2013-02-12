@@ -5,7 +5,7 @@
 package gsm.security;
 
 import gsm.security.cipher.A52;
-import gsm.security.cryptanalysis.A52HackTool;
+import gsm.security.attack.A52HackTool;
 
 /**
  *
