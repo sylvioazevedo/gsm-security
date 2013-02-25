@@ -21,7 +21,7 @@ class Constants {
     static final int REG_BITS = R1_BITS + R2_BITS + R3_BITS + R4_BITS
     
     // clocking unit taps
-    static final int R4_CLOCKTAB_R1 = 10
+    static final int R4_CLOCKTAP_R1 = 10
     static final int R4_CLOCKTAP_R2 =  3
     static final int R4_CLOCKTAP_R3 =  7
     
