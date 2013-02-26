@@ -10,15 +10,13 @@ import gsm.security.utils.Constants
 class KeySetupReverse {
 
     class ReverseLFSRSet {
-        def r1 = new byte[Constants.R1_BITS][Constants.SECRETKEY_BITS+1]         // R1 expressed from keystream unknowns
-        def r2 = new byte[Constants.R2_BITS][Constants.SECRETKEY_BITS+1]         // R2 expressed from keystream unknowns
-        def r3 = new byte[Constants.R3_BITS][Constants.SECRETKEY_BITS+1]         // R3 expressed from keystream unknowns
-        def r4 = new byte[Constants.R4_BITS][Constants.SECRETKEY_BITS+1]         // R4 expressed from keystream unknowns
+        def r1 = new byte[Constants.R1_BITS][Constants.SECRETKEY_BITS+1]        // R1 expressed from keystream unknowns
+        def r2 = new byte[Constants.R2_BITS][Constants.SECRETKEY_BITS+1]        // R2 expressed from keystream unknowns
+        def r3 = new byte[Constants.R3_BITS][Constants.SECRETKEY_BITS+1]        // R3 expressed from keystream unknowns
+        def r4 = new byte[Constants.R4_BITS][Constants.SECRETKEY_BITS+1]        // R4 expressed from keystream unknowns
     } 
     
-    def keysetupReverseClockRegs(ReverseLFSRSet LFSRs) {
-
-        byte carry[SECRETKEY_BITS+1];
+    def reverseClockRegs(ReverseLFSRSet LFSRs) {
         
         def carry
 
@@ -30,32 +28,36 @@ class KeySetupReverse {
         ArrayUtil.xor(carry, LFSRs.r1[17])
         ArrayUtil.xor(carry, LFSRs.r1[18])
         
-//        ArrayUtil.xor(LFSRs.r1[1], LFSRs.r1[0])
-//        memmove(LFSRs->R1[1], LFSRs->R1[0], (R1_BITS-1)*(SECRETKEY_BITS+1)*sizeof(byte));
-//        memcpy(LFSRs->R1[0], carry, (SECRETKEY_BITS+1)*sizeof(byte));
+        ArrayUtil.shiftLeft(LFSRs.r1, carry)
 
         // R2
         carry = new byte[SECRETKEY_BITS+1]
+        
         ArrayUtil.xor(carry, LFSRs.r2[20])
         ArrayUtil.xor(carry, LFSRs.r2[21])
         
-        memmove(LFSRs->R2[1], LFSRs->R2[0], (R2_BITS-1)*(SECRETKEY_BITS+1)*sizeof(byte));
-        memcpy(LFSRs->R2[0], carry, (SECRETKEY_BITS+1)*sizeof(byte));
-
+        ArrayUtil.shiftLeft(LFSRs.r2, carry)
+        
         // R3
         carry = new byte[SECRETKEY_BITS+1]
-        XOR_CHARARRAYS(carry, LFSRs->R3[ 7], SECRETKEY_BITS+1);
-        XOR_CHARARRAYS(carry, LFSRs->R3[20], SECRETKEY_BITS+1);
-        XOR_CHARARRAYS(carry, LFSRs->R3[21], SECRETKEY_BITS+1);
-        XOR_CHARARRAYS(carry, LFSRs->R3[22], SECRETKEY_BITS+1);
-        memmove(LFSRs->R3[1], LFSRs->R3[0], (R3_BITS-1)*(SECRETKEY_BITS+1)*sizeof(byte));
-        memcpy(LFSRs->R3[0], carry, (SECRETKEY_BITS+1)*sizeof(byte));
-
+        
+        ArrayUtil.xor(carry, LFSRs.r3[7])
+        ArrayUtil.xor(carry, LFSRs.r3[20])
+        ArrayUtil.xor(carry, LFSRs.r3[21])
+        ArrayUtil.xor(carry, LFSRs.r3[22])
+        
+        ArrayUtil.shiftLeft(LFSRs.r3, carry)
+        
         // R4
         carry = new byte[SECRETKEY_BITS+1]
-        XOR_CHARARRAYS(carry, LFSRs->R4[11], SECRETKEY_BITS+1);
-        XOR_CHARARRAYS(carry, LFSRs->R4[16], SECRETKEY_BITS+1);
-        memmove(LFSRs->R4[1], LFSRs->R4[0], (R4_BITS-1)*(SECRETKEY_BITS+1)*sizeof(byte));
-        memcpy(LFSRs->R4[0], carry, (SECRETKEY_BITS+1)*sizeof(byte));
+        
+        ArrayUtil.xor(carry, LFSRs.r4[11])
+        ArrayUtil.xor(carry, LFSRs.r4[16])
+        
+        ArrayUtil.shiftLeft(LFSRs.r4, carry)
+    }
+    
+    def reverseKeysetup(def r1, def r2, def r3, def r4, def frameId, def key) {
+        
     }
 }

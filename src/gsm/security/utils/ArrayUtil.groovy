@@ -21,13 +21,11 @@ class ArrayUtil {
     }
     
     
-    static def move(def s1, def s2, int size) {
+    static def shiftLeft(def target, def carry) {
+    
+        target.remove(target.size()-1)
+        target.add(0, carry)
         
-        (0..v1.size()-1).each { i->
-            v1[i] ^= v2[i]
-        }
-        
-        return v1
+        return target
     }
 }
-
