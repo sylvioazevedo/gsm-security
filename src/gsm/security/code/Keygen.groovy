@@ -133,7 +133,24 @@ class Keygen {
         
         return keystream
     }
+    
+    def getKeystreamDump(int len) {
 
+        def keystream = new byte[len]
+
+        (0..len-1).each { i->
+            keystream[i] = getOutBit();
+            clockingUnit(0);
+            
+            println "${i}-> R1: ${r1}"
+            println "${i}-> R2: ${r2}"
+            println "${i}-> R3: ${r3}"
+            println "${i}-> R4: ${r4}"
+            println "--"
+        }
+        
+        return keystream
+    }
 
     // Documentation in header file
     def keygen_test() {
@@ -148,7 +165,6 @@ class Keygen {
 
         keysetup(Kc, frameId);
         keystream = getKeystream(228);
-
 
         (0..227).each { i-> 
 

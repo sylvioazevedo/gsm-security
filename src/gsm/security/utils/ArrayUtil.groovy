@@ -20,6 +20,17 @@ class ArrayUtil {
         return v1
     }
     
+    static def xorNoAcum(def v1, def v2) {
+        
+        def v = []
+        
+        (0..v1.size()-1).each { i->
+            v << (v1[i] ^ v2[i])
+        }
+        
+        return v
+    }
+    
     
     static def shiftLeft(def target, def carry) {
     
