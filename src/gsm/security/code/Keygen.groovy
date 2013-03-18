@@ -102,23 +102,46 @@ class Keygen {
             r4[0] ^= Kc[i];
         }
         
-        (0..Constants.FRAMEID_BITS-1).each { i->
-            
+        println "- key inserted"
+        println r1
+        println r2
+        println r3
+        println r4
+        
+        (0..Constants.FRAMEID_BITS-1).each { i->            
             clockingUnit(1);
             r1[0] ^= frameId[i];
             r2[0] ^= frameId[i];
             r3[0] ^= frameId[i];
             r4[0] ^= frameId[i];
-        }
+        }        
+        
+        println "- frame inserted"
+        println r1
+        println r2
+        println r3
+        println r4
 
         r1[Constants.R1_INITIAL_CONST_POS] = 1;
         r2[Constants.R2_INITIAL_CONST_POS] = 1;
         r3[Constants.R3_INITIAL_CONST_POS] = 1;
         r4[Constants.R4_INITIAL_CONST_POS] = 1;
-
+        
+        // -- init
+//        println "-- init"
+//        println r1
+//        println r2
+//        println r3
+//        println r4
+        
         // First 99 cycles of pre-processing (output discarded)
         for(int i=0 ; i<100 ; ++i) {
-            clockingUnit(0);
+            clockingUnit(0);   
+//            println "-- [${i}]"
+//            println r1
+//            println r2
+//            println r3
+//            println r4
         }
     }
 

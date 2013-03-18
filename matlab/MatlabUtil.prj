@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<deployment-project plugin="plugin.deploytool" plugin-version="1.0">
-  <configuration target="target.java.package" target-name="Java Package" name="MatlabUtil" location="/Volumes/USP/mestrado/dissertacao/src/trunk/gsm-security/matlab" file="/Volumes/USP/mestrado/dissertacao/src/trunk/gsm-security/matlab/MatlabUtil.prj" build-checksum="3421557854">
-    <param.project.name>/Volumes/USP/mestrado/dissertacao/src/trunk/gsm-security/matlab/MatlabUtil.prj</param.project.name>
+<deployment-project>
+  <configuration target="target.java.package" target-name="Java Package" name="MatlabUtil" location="E:\sylvio\lab\gsm-security\matlab" file="E:\sylvio\lab\gsm-security\matlab\MatlabUtil.prj" build-checksum="1188034643">
+    <param.project.name>E:\sylvio\lab\gsm-security\matlab\MatlabUtil.prj</param.project.name>
     <param.target.type>Java Package</param.target.type>
     <param.appname>MatlabUtil</param.appname>
-    <param.intermediate>${PROJECT_ROOT}/MatlabUtil/src</param.intermediate>
-    <param.output>${PROJECT_ROOT}/MatlabUtil/distrib</param.output>
+    <param.intermediate>${PROJECT_ROOT}\MatlabUtil\src</param.intermediate>
+    <param.output>${PROJECT_ROOT}\MatlabUtil\distrib</param.output>
     <param.embed.ctf>true</param.embed.ctf>
     <param.tbx_on_path>
       <item>all</item>
@@ -32,619 +32,554 @@
     <fileset.classes>
       <entity.package name="">
         <entity.class name="MatlabUtil">
-          <file>${PROJECT_ROOT}/multGF2.m</file>
+          <file>${PROJECT_ROOT}\multGF2.m</file>
         </entity.class>
       </entity.package>
     </fileset.classes>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file name="readme.txt" location="${PROJECT_ROOT}/MatlabUtil/distrib" optional="true">/Volumes/USP/mestrado/dissertacao/src/trunk/gsm-security/matlab/MatlabUtil/distrib/readme.txt</file>
-      <file name="doc" location="${PROJECT_ROOT}/MatlabUtil/distrib" optional="false">/Volumes/USP/mestrado/dissertacao/src/trunk/gsm-security/matlab/MatlabUtil/distrib/doc</file>
-      <file name="MatlabUtil.jar" location="${PROJECT_ROOT}/MatlabUtil/distrib" optional="false">/Volumes/USP/mestrado/dissertacao/src/trunk/gsm-security/matlab/MatlabUtil/distrib/MatlabUtil.jar</file>
+      <file name="readme.txt" location="${PROJECT_ROOT}\MatlabUtil\distrib" optional="false">E:\sylvio\lab\gsm-security\matlab\MatlabUtil\distrib\readme.txt</file>
+      <file name="MatlabUtil.jar" location="${PROJECT_ROOT}\MatlabUtil\distrib" optional="false">E:\sylvio\lab\gsm-security\matlab\MatlabUtil\distrib\MatlabUtil.jar</file>
+      <file name="doc" location="${PROJECT_ROOT}\MatlabUtil\distrib" optional="false">E:\sylvio\lab\gsm-security\matlab\MatlabUtil\distrib\doc</file>
     </build-deliverables>
-    <workflow />
     <matlab>
-      <root>/Applications/MATLAB_R2012a.app</root>
+      <root>C:\Program Files\MATLAB\R2011a</root>
       <path>
-        <directory>/Users/sazevedo/Documents/MATLAB</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/demos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/graph2d</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/graph3d</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/graphics</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/plottools</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/scribe</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/specgraph</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/uitools</directory>
-        <directory>${MATLAB_ROOT}/toolbox/local</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/general</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/ops</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/lang</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/elmat</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/randfun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/elfun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/specfun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/matfun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/datafun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/polyfun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/funfun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/sparfun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/strfun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/iofun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/timefun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/datatypes</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/verctrl</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/codetools</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/helptools</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/hds</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/guide</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/datamanager</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/optimfun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/blocks/library</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/blocks/obsolete</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simulink/dataclasses</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simulink</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simulink/slresolve</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/blocks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/components</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/fixedandfloat</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/fixedandfloat/obsolete</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/dee</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simulink/MPlayIO</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simulink/dataobjectwizard</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simdemos/dataclasses</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simdemos/aerospace</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simdemos/automotive</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simdemos/industrial</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simdemos/simfeatures</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simdemos/simgeneral</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simulink/modeladvisor</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simulink/modeladvisor/fixpt</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/glue</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/glue/studio</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/AUTOSAR/AUTOSAR/dataclasses</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/AUTOSAR/AUTOSAR</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/accel</directory>
-        <directory>${MATLAB_ROOT}/toolbox/stateflow/stateflow</directory>
-        <directory>${MATLAB_ROOT}/toolbox/stateflow/coder</directory>
-        <directory>${MATLAB_ROOT}/toolbox/stateflow/sfdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/aero/aero</directory>
-        <directory>${MATLAB_ROOT}/toolbox/aero/astdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/aeroblks/aeroblks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/aeroblks/aeroblksutilities</directory>
-        <directory>${MATLAB_ROOT}/toolbox/aeroblks/aerodemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/aeroblks/aerodemos/texture</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/audiovideo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/bioinfo/bioinfo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/bioinfo/biolearning</directory>
-        <directory>${MATLAB_ROOT}/toolbox/bioinfo/microarray</directory>
-        <directory>${MATLAB_ROOT}/toolbox/bioinfo/mass_spec</directory>
-        <directory>${MATLAB_ROOT}/toolbox/bioinfo/proteins</directory>
-        <directory>${MATLAB_ROOT}/toolbox/bioinfo/biomatrices</directory>
-        <directory>${MATLAB_ROOT}/toolbox/bioinfo/graphtheory</directory>
-        <directory>${MATLAB_ROOT}/toolbox/bioinfo/biodemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/coder/matlabcoder</directory>
-        <directory>${MATLAB_ROOT}/toolbox/coder/codegendemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/coder/emlcodermex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/rtw</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/shared</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/coder_foundation/tfl</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/simtargets</directory>
-        <directory>${MATLAB_ROOT}/toolbox/coder/coder</directory>
-        <directory>${MATLAB_ROOT}/toolbox/comm/comm</directory>
-        <directory>${MATLAB_ROOT}/toolbox/comm/commutilities/comminit</directory>
-        <directory>${MATLAB_ROOT}/toolbox/comm/commutilities/commmex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/comm/commutilities</directory>
-        <directory>${MATLAB_ROOT}/toolbox/comm/commdeprecated</directory>
-        <directory>${MATLAB_ROOT}/toolbox/comm/commdemos</directory>
-        <directory>${MATLAB_ROOT}/help/toolbox/comm/examples</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/comparisons</directory>
-        <directory>${MATLAB_ROOT}/toolbox/compiler</directory>
-        <directory>${MATLAB_ROOT}/toolbox/compiler/compilerdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/control/control</directory>
-        <directory>${MATLAB_ROOT}/toolbox/control/ctrlguis</directory>
-        <directory>${MATLAB_ROOT}/toolbox/control/ctrlobsolete</directory>
-        <directory>${MATLAB_ROOT}/toolbox/control/ctrlutil</directory>
-        <directory>${MATLAB_ROOT}/toolbox/control/ctrldemos</directory>
-        <directory>${MATLAB_ROOT}/help/toolbox/control/examples</directory>
-        <directory>${MATLAB_ROOT}/toolbox/curvefit/curvefit</directory>
-        <directory>${MATLAB_ROOT}/toolbox/curvefit/splines</directory>
-        <directory>${MATLAB_ROOT}/toolbox/curvefit/cftoolgui</directory>
-        <directory>${MATLAB_ROOT}/toolbox/curvefit/sftoolgui</directory>
-        <directory>${MATLAB_ROOT}/toolbox/curvefit/curvefitdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/database/database</directory>
-        <directory>${MATLAB_ROOT}/toolbox/database/vqb</directory>
-        <directory>${MATLAB_ROOT}/toolbox/database/dbdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/datafeed/datafeed</directory>
-        <directory>${MATLAB_ROOT}/toolbox/datafeed/dfgui</directory>
-        <directory>${MATLAB_ROOT}/toolbox/distcomp</directory>
-        <directory>${MATLAB_ROOT}/toolbox/distcomp/distcomp</directory>
-        <directory>${MATLAB_ROOT}/toolbox/distcomp/user</directory>
-        <directory>${MATLAB_ROOT}/toolbox/distcomp/mpi</directory>
-        <directory>${MATLAB_ROOT}/toolbox/distcomp/parallel</directory>
-        <directory>${MATLAB_ROOT}/toolbox/distcomp/parallel/util</directory>
-        <directory>${MATLAB_ROOT}/toolbox/distcomp/lang</directory>
-        <directory>${MATLAB_ROOT}/toolbox/distcomp/cluster</directory>
-        <directory>${MATLAB_ROOT}/toolbox/distcomp/gpu</directory>
-        <directory>${MATLAB_ROOT}/toolbox/distcomp/pctdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/distcomp/worker</directory>
-        <directory>${MATLAB_ROOT}/toolbox/dsp/dsp</directory>
-        <directory>${MATLAB_ROOT}/toolbox/dsp/dsputilities</directory>
-        <directory>${MATLAB_ROOT}/toolbox/dsp/dsputilities/dspinit</directory>
-        <directory>${MATLAB_ROOT}/toolbox/dsp/dsputilities/dspmex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/dsp/dspdemos</directory>
-        <directory>${MATLAB_ROOT}/help/toolbox/dsp/examples</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/dsp/simulink/dsp</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/ecoder</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/ecoder/ecoderdemos/dataclasses</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/ecoder/ecoderdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/mpt</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/mpt/mpt</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/mpt/user_specific</directory>
-        <directory>${MATLAB_ROOT}/toolbox/embeddedcoder</directory>
-        <directory>${MATLAB_ROOT}/toolbox/econ/econ</directory>
-        <directory>${MATLAB_ROOT}/toolbox/econ/econdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/eml/eml</directory>
-        <directory>${MATLAB_ROOT}/toolbox/dsp/filterdesign</directory>
-        <directory>${MATLAB_ROOT}/toolbox/finance/finance</directory>
-        <directory>${MATLAB_ROOT}/toolbox/finance/calendar</directory>
-        <directory>${MATLAB_ROOT}/toolbox/finance/finsupport</directory>
-        <directory>${MATLAB_ROOT}/toolbox/finance/ftseries</directory>
-        <directory>${MATLAB_ROOT}/toolbox/finance/findemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/finderiv/finderiv</directory>
-        <directory>${MATLAB_ROOT}/toolbox/finderiv/finderivdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/finfixed/finfixed</directory>
-        <directory>${MATLAB_ROOT}/toolbox/finfixed/finfixdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/fixedpoint/fidemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/fixedpoint/fixedpoint</directory>
-        <directory>${MATLAB_ROOT}/toolbox/fixedpoint/fixedpointtool</directory>
-        <directory>${MATLAB_ROOT}/toolbox/fixpoint</directory>
-        <directory>${MATLAB_ROOT}/toolbox/fixpoint/fpca</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldv/sldv</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/fixedandfloat/fxpdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/fuzzy/fuzzy</directory>
-        <directory>${MATLAB_ROOT}/toolbox/fuzzy/fuzzyutil</directory>
-        <directory>${MATLAB_ROOT}/toolbox/fuzzy/fuzdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/geoweb/geoweb</directory>
-        <directory>${MATLAB_ROOT}/toolbox/globaloptim</directory>
-        <directory>${MATLAB_ROOT}/toolbox/globaloptim/globaloptim</directory>
-        <directory>${MATLAB_ROOT}/toolbox/globaloptim/globaloptimdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/hdlfilter/hdlfilter</directory>
-        <directory>${MATLAB_ROOT}/toolbox/hdlfilter/hdlfiltdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/adivdsp</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/adivdsp/mdlinfo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/adivdsp/tfl</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/adivdsp/vdspblks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/adivdsp/rtw</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/eclipseide</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/eclipseide/mdlinfo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/eclipseide/registry</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/eclipseide/tfl</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ghsmulti</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ghsmulti/mdlinfo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ghsmulti/multiblks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ghsmulti/tfl</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ghsmulti/rtw</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/iarew</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/iarew/blks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/iarew/mdlinfo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/iarew/templates</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ticcs</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ticcs/ccsblks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ticcs/ccslinkblks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ticcs/ccslinkblks/rtdxsimblks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ticcs/lic</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ticcs/mdlinfo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ticcs/tfl</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ticcs/util</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ticcs/rtw</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ticcs/envChecker</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/wrworkbench</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/wrworkbench/mdlinfo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/wrworkbench/registry</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/wrworkbench/wrworkbenchblks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/foundation/pjtgenerator</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/foundation/pjtgenerator/rtw</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/foundation/pjtgenerator/tgtpref2</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/foundation/pjtgenerator/profiler</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/foundation/pjtgenerator/mdlinfo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/foundation/pjtgenerator/blks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/foundation/pjtgenerator/blks/masks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/foundation/pjtgenerator/blks/tlc_c</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/foundation</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/foundation/util</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/foundation/errorhandler</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/foundation/xmakefile</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/foundation/hookpoints</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/idelinkdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/adivdsp/vdspdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/eclipseide/eclipseidedemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ghsmulti/multidemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/iarew/iarewdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ticcs/ccsdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/idelink/extensions/ticcs/ccsdemos/util</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/etargets/etargets</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/etargets/etargets/demoutils</directory>
-        <directory>${MATLAB_ROOT}/toolbox/ident/ident</directory>
-        <directory>${MATLAB_ROOT}/toolbox/ident/nlident</directory>
-        <directory>${MATLAB_ROOT}/toolbox/ident/idobsolete</directory>
-        <directory>${MATLAB_ROOT}/toolbox/ident/idguis</directory>
-        <directory>${MATLAB_ROOT}/toolbox/ident/idutils</directory>
-        <directory>${MATLAB_ROOT}/toolbox/ident/idhelp</directory>
-        <directory>${MATLAB_ROOT}/toolbox/ident/iddemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/ident/iddemos/examples</directory>
-        <directory>${MATLAB_ROOT}/toolbox/qualkits/iec</directory>
-        <directory>${MATLAB_ROOT}/toolbox/images/colorspaces</directory>
-        <directory>${MATLAB_ROOT}/toolbox/images/images</directory>
-        <directory>${MATLAB_ROOT}/toolbox/images/imuitools</directory>
-        <directory>${MATLAB_ROOT}/toolbox/images/iptformats</directory>
-        <directory>${MATLAB_ROOT}/toolbox/images/iptutils</directory>
-        <directory>${MATLAB_ROOT}/toolbox/images/imdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/imagesci</directory>
-        <directory>${MATLAB_ROOT}/toolbox/imaq/imaq</directory>
-        <directory>${MATLAB_ROOT}/toolbox/imaq/imaqblks/imaqblks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/imaq/imaqblks/imaqmasks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/imaq/imaqblks/imaqmex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/imaq/imaqdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/instrument/instrument</directory>
-        <directory>${MATLAB_ROOT}/toolbox/instrument/instrumentblks/instrumentblks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/instrument/instrumentblks/instrumentmex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/instrument/instrumentblks/instrumentmasks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/instrument/instrumentdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/instrument</directory>
-        <directory>${MATLAB_ROOT}/toolbox/javabuilder/javabuilder</directory>
-        <directory>${MATLAB_ROOT}/toolbox/javabuilder/javabuilderdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sam/m3i</directory>
-        <directory>${MATLAB_ROOT}/toolbox/map/map</directory>
-        <directory>${MATLAB_ROOT}/toolbox/map/mapdisp</directory>
-        <directory>${MATLAB_ROOT}/toolbox/map/mapformats</directory>
-        <directory>${MATLAB_ROOT}/toolbox/map/mapproj</directory>
-        <directory>${MATLAB_ROOT}/toolbox/map/mapdata</directory>
-        <directory>${MATLAB_ROOT}/toolbox/map/mapdata/sdts</directory>
-        <directory>${MATLAB_ROOT}/toolbox/map/mapdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/mpc/mpc</directory>
-        <directory>${MATLAB_ROOT}/toolbox/mpc/mpcdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/mpc/mpcguis</directory>
-        <directory>${MATLAB_ROOT}/toolbox/mpc/mpcobsolete</directory>
-        <directory>${MATLAB_ROOT}/toolbox/mpc/mpcutils</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nncontrol</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nndemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nndemos/nndatasets</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nnadapt</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nndatafun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nnderivative</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nndistance</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nndivision</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nninitlayer</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nninitnetwork</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nninitweight</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nnlearn</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nnnetfun</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nnnetinput</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nnnetwork</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nnperformance</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nnplot</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nnprocess</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nnsearch</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nntopology</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nntrain</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nntransfer</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnet/nnweight</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnguis</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnobsolete</directory>
-        <directory>${MATLAB_ROOT}/toolbox/nnet/nnutils</directory>
-        <directory>${MATLAB_ROOT}/toolbox/optim/optim</directory>
-        <directory>${MATLAB_ROOT}/toolbox/optim/optimdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/pde</directory>
-        <directory>${MATLAB_ROOT}/toolbox/pde/pdedemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/phased/phased</directory>
-        <directory>${MATLAB_ROOT}/toolbox/phased/phaseddemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/common/data/core/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/common/data/mli/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/common/foundation/mli/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/common/units/core/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/common/units/mli/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/drive/drive</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/drive/drivedemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/elec/elec</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/elec/elecdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/equation_language/equation_language</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/gl/core/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/gl/sli/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/gui/gfx/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/logging/base/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/logging/mli/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/mech/mech</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/mech/importer</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/mech/mechdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/ne_sli/ne_sli</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/network_engine/ne_support</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/network_engine/network_engine</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/pm_sli/pm_sli</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/pm_visimpl/pm_visimpl</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/pmir/pmir</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/powersys/powersys</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/powersys/DR/DR</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/powersys/drives/drives</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/powersys/facts/facts</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/powersys/DR/DRdemo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/powersys/drives/drivesdemo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/powersys/facts/factsdemo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/powersys/powerdemo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sdl/sdl</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sdl/classic</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sdl/sdldemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sh/sh</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sh/shdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/simscape/compiler/core/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/simscape/compiler/sli/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/simscape/simscapedemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/simscape/engine/core/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/simscape/engine/mli/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/simscape/engine/sli/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/simscape/foundation/simscape</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/simscape_language/simscape_language</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/simscape/library/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/simscape/simscape/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/simulation/base/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/core/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/smdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/smdemos/images</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/smdemos/wing_landing_gear</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/smdemos/wing_landing_gear/images</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/smdemos/cart_double_pendulum</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/smdemos/cart_double_pendulum/images</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/smdemos/stewart_platform</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/smdemos/stewart_platform/images</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/smdemos/double_crank_aiming</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/smdemos/double_crank_aiming/images</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/gui/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/local/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/sli/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/sm/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/physmod/sm/ssci/m</directory>
-        <directory>${MATLAB_ROOT}/toolbox/qualkits/common</directory>
-        <directory>${MATLAB_ROOT}/toolbox/realtime</directory>
-        <directory>${MATLAB_ROOT}/toolbox/realtime/realtime</directory>
-        <directory>${MATLAB_ROOT}/toolbox/realtime/realtime/rtw</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slvnv/reqmgt</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slvnv/slvnv</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slvnv/rmidemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rf/rf</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rf/rfdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rf/rftool</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rfblks/rfblks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rfblks/rfblksmasks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rfblks/rfblksmex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rfblks/rfblksdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/robust/robust</directory>
-        <directory>${MATLAB_ROOT}/toolbox/robust/rctlmi</directory>
-        <directory>${MATLAB_ROOT}/toolbox/robust/rctutil</directory>
-        <directory>${MATLAB_ROOT}/toolbox/robust/rctdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/robust/rctobsolete/robust</directory>
-        <directory>${MATLAB_ROOT}/toolbox/robust/rctobsolete/lmi</directory>
-        <directory>${MATLAB_ROOT}/toolbox/robust/rctobsolete/mutools/commands</directory>
-        <directory>${MATLAB_ROOT}/toolbox/robust/rctobsolete/mutools/subs</directory>
-        <directory>${MATLAB_ROOT}/help/toolbox/robust/examples</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rptgen/rptgen</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rptgen/rptgendemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rptgen/xmlcomp</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rptgenext/rptgenext</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rptgenext/rptgenextdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rptgenext/rptgenextdemos/flutter_suppression</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rptgenext/slxmlcomp</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/asap2/asap2/dataclasses</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/asap2/asap2</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/asap2/asap2/user</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/common/can/blocks/dataclasses</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/common/can/blocks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/common/can/blocks/tlc_c</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/common/tgtcommon</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/connectivity</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/pil</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/rtw/cgv/API</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/rtw/misra</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulinkcoder</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/rtwdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/rtwdemos/rsimdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/blocks/sb2sl</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/asynciolib</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/can</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/can/canblks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/can/canmasks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/can/canmex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/cgir_fe</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/coder/coder</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/controllib/engine</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/controllib/engine/numerics</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/controllib/engine/options</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/controllib/engine/optim</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/controllib/general</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/controllib/graphics</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/controllib/graphics/utils</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/controllib/graphics/plotoptions</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/controllib/requirements</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/dastudio</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/dastudio/depviewer</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/dspblks/dspblks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/dspblks/dspmex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/dsp/vision/matlab/utilities</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/dsp/vision/simulink/utilities</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/dsp/vision/matlab/utilities/mex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/dsp/vision/simulink/utilities/mex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/dsp/vision/matlab/utilities/init</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/dsp/vision/matlab/vision</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/dsp/vision/simulink/vision</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/filterdesignlib</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/hdlshared</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/imageslib</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/imaqlib</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/mapgeodesy</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/maputils</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/measure</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/optimlib</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/rptgen</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/sigbldr</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/siglib</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/slcontrollib</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/sldv</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/slvnv</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slvnv/simcoverage</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/spcuilib</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/statslib</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/system/system</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/testconsole</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/testmeaslib/general</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/testmeaslib/graphics</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/testmeaslib/simulink</directory>
-        <directory>${MATLAB_ROOT}/toolbox/signal/signal</directory>
-        <directory>${MATLAB_ROOT}/toolbox/signal/sigtools</directory>
-        <directory>${MATLAB_ROOT}/toolbox/signal/sptoolgui</directory>
-        <directory>${MATLAB_ROOT}/toolbox/signal/sigdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simbio/simbio</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simbio/simbiodemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simevents/simevents</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simevents/simevents/icons</directory>
-        <directory>${MATLAB_ROOT}/toolbox/des/desblks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/des/desmasks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/des/desmex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/des/desdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simrf/simrf</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simrf/simrfmasks</directory>
-        <directory>${MATLAB_ROOT}/help/toolbox/simrf/examples</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simrf/simrfdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/shared/simulink</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sl3d/sl3d</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sl3d/sl3ddemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slcontrol/slcontrol</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slcontrol/slctrlguis</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slcontrol/slctrlutil</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slcontrol/slctrlobsolete</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slcontrol/slctrldemos</directory>
-        <directory>${MATLAB_ROOT}/help/toolbox/slcontrol/examples</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/sldo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/sldoguis</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/sloptim/sloptim</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/sloptim/sloptguis</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/sloptim/sloptobsolete</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/slestim/slestguis</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/slestim/slestim</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/slestim/slestmex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/slestim/slestutil</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/sldodemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/sldodemos/optim</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/sldodemos/estim</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/sldodemos/estim/docexamples/adaptive</directory>
-        <directory>${MATLAB_ROOT}/toolbox/sldo/sldodemos/estim/docexamples/lookuptable</directory>
-        <directory>${MATLAB_ROOT}/help/toolbox/sldo/examples</directory>
-        <directory>${MATLAB_ROOT}/toolbox/simulink/simulink/slproject</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slvnv/slvnvdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slvnv/simcovdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slvnv/do178b</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slvnv/iec61508</directory>
-        <directory>${MATLAB_ROOT}/toolbox/slvnv/styleguide</directory>
-        <directory>${MATLAB_ROOT}/toolbox/stats/stats</directory>
-        <directory>${MATLAB_ROOT}/toolbox/stats/classreg</directory>
-        <directory>${MATLAB_ROOT}/toolbox/stats/statsdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/stm/stm</directory>
-        <directory>${MATLAB_ROOT}/toolbox/stm/stmdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/symbolic/symbolic</directory>
-        <directory>${MATLAB_ROOT}/toolbox/symbolic/symbolicdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/system</directory>
-        <directory>${MATLAB_ROOT}/toolbox/systemtest/systemtest</directory>
-        <directory>${MATLAB_ROOT}/toolbox/systemtest/systemtest/removed</directory>
-        <directory>${MATLAB_ROOT}/toolbox/systemtest/systemtestdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/blackfin</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/blackfin/blks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/blackfin/blks/mex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/blackfin/blks/masks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/blackfin/blackfindemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/intelhost/tfl</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/mpc555dk</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/mpc555dk/common/configuration</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/mpc555dk/mpc555dk</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/mpc555dk/pil</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/mpc555dk/rt/blockset/mfiles/dataclasses</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/mpc555dk/rt/blockset/mfiles</directory>
-        <directory>${MATLAB_ROOT}/toolbox/rtw/targets/mpc555dk/rt/blockset</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/foundation</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/foundation/utils</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/foundation/utils/resource_config</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/foundation/blks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/foundation/blks/mex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/foundation/blks/masks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/shared</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/shared/ti</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/shared/ti/mdlinfo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/shared/ti/utils</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/shared/ti/blks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/shared/ti/blks/mex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/shared/ti/blks/masks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/targetdemos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic2000</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic2000/rtw</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic2000/utils</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic2000/blks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic2000/blks/mex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic2000/blks/masks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic2000/tic2000demos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic5000</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic5000/blks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic5000/blks/mex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic5000/blks/masks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic5000/tic5000demos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic6000</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic6000/rtw</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic6000/tfl</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic6000/utils</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic6000/blks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic6000/blks/mex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic6000/blks/sysobj_mex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic6000/blks/masks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic6000/tic6000demos/dataclasses</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/processor/tic6000/tic6000demos</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/operatingsystem/linux/blks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/operatingsystem/linux/blks/masks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/operatingsystem/linux/blks/mex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/operatingsystem/linux/src</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/operatingsystem/vxworks/blks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/operatingsystem/vxworks/blks/mex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/operatingsystem/vxworks/blks/masks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/operatingsystem/vxworks/src</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/operatingsystem/windows/blks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/operatingsystem/windows/blks/masks</directory>
-        <directory>${MATLAB_ROOT}/toolbox/target/extensions/operatingsystem/windows/blks/mex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/matlab/timeseries</directory>
-        <directory>${MATLAB_ROOT}/toolbox/vision/vision</directory>
-        <directory>${MATLAB_ROOT}/toolbox/vision/visionutilities</directory>
-        <directory>${MATLAB_ROOT}/toolbox/vision/visionutilities/visioninit</directory>
-        <directory>${MATLAB_ROOT}/toolbox/vision/visionutilities/visionmex</directory>
-        <directory>${MATLAB_ROOT}/toolbox/vision/visiondemos</directory>
-        <directory>${MATLAB_ROOT}/help/toolbox/vision/examples</directory>
-        <directory>${MATLAB_ROOT}/toolbox/wavelet/wavelet</directory>
-        <directory>${MATLAB_ROOT}/toolbox/wavelet/wmultisig1d</directory>
-        <directory>${MATLAB_ROOT}/toolbox/wavelet/wavedemo</directory>
-        <directory>${MATLAB_ROOT}/toolbox/wavelet/compression</directory>
+        <directory>C:\Users\spquant\Documents\MATLAB</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\AlphaBetaBolsa</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\AnaliseEstiloDinamica</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\AnaliseEstiloDinamica\html</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\AssetAllocationTools</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\AssetAllocationTools\Meucci</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\AssetAllocationTools\Meucci\ExactCorrelations</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\AssetAllocationTools\Meucci\MeanDiversifFrontier</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\AssetAllocationTools\Meucci\Meucci_RobustBayesian</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Benchmarks</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\BetasDinamicos</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Calculus</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Calculus\optim</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Calculus\utils</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Capaciity</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\CashFlowMatching</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\CorporateBonds</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\CreditRiskPlus</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\DateTime</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Derivatives</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Derivatives\ImplRND</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\DistribuicaoLotes</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Dynare</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\EliciacaoPrior</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Estilo</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\EstiloConcorrencia</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\FIDCveiculos</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Fatores Bolsa</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Fatores Bolsa\Teste S</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Fatores Bolsa\TesteOx</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\FiltroKalman</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\FiltroKalman\KalmanFilterGen</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\HPstructural</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\SSM</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\SSM\csrc</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\SSM\demos</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\SSM\demos\data</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\SSM\tramo</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Bayesianos</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo2</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo3</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo4</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo5</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo6</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo7</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo7\S-Plus</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo7\S-Plus\.Data</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo7\S-Plus\.Data\__Hhelp</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo7\S-Plus\.Data\__Meta</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo7\S-Plus\.Data\__Shelp</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo7\S-Plus\.Prefs</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo7\TesteOx</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo8</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo8\S-Plus</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo8\S-Plus\.Data</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo8\S-Plus\.Data\__Hhelp</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo8\S-Plus\.Data\__Meta</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo8\S-Plus\.Data\__Shelp</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo8\S-Plus\.Prefs</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ss Pack in MatLab\Exemplo9</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ssf</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ssf\Velhos</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Filters\Ssf\backupCZ</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\FinancialAnalysis</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\FinancialAnalysis\TechnicalIndicators</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\FinancialAnalysis\dayfct</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Graphics</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\HARCH</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\HP with State Space</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\InflationTargeting</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Interpolation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\LifeCycle</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\LongShortIntraday</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\LongShortPar</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Microstructure</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\MinTrackingError</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelo Acoes</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelo Bolsa</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza\Tendencia</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza\Tendencia\Estrategias</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza\Tendencia\Modelos</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza\Tendencia\Modelos\LL</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza\Tendencia\Modelos\LLMRT</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza\Tendencia\Modelos\LLMRVT</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza\Tendencia\Modelos\LLT</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza\Tendencia\Modelos\LLT\Velhos</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza\Tendencia\Modelos\MRLT</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza\Tendencia\Modelos\MRLT\Antigas</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza\Tendencia\Modelos\MRLT Taxa</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza\Tendencia\Modelos\Mean Reversion</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Modelos Natureza\Tendencia\Modelos Natureza</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\MongoMatlab</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\MongoMatlab\MongoMatlab_Library</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Opcoes</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Optimal</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\OptimalWithdrawal</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\PassivoAtuarial</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Performance</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Personnalite</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Precificacao Debentures</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Pricing</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Pricing\curves</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Pricing\curves\CURVA ZERO</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Pricing\curves\CURVA ZERO\Interest Rate Models</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Pricing\curves\StateSpaceVasisek</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Pricing\curves\backup</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Pricing\mappings</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Pricing\options</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Pricing\values</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Pricing\values\backup</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Pricing\values\treeUtilities</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\ProjecaoDemanda</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\RealTime</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\RegressaoDinamica</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Regression</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\ResgateOtimo</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Retornos Scilab</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\RiscoDeCredito</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\RiskParity</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\RiskParity\RiskParityOptimizer</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\RiskParity\RiskParityOptimizer\temp</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\RiskTarget</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\RiskTarget\RiskTargetOptimizer</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\SAMBA</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\ScenarioAnalysis</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\SimulaRebal</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\SimuladorCarteira</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Simulation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Simulation\SpecificDistributions</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\PFLib</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\PFLib\doc</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\PFLib\doc\pfwiz</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\PFLibK</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\core</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\docs</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\docs\m2html</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\docs\m2html\ReBEL-0.2.7</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\docs\m2html\ReBEL-0.2.7\core</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\docs\m2html\ReBEL-0.2.7\examples</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\docs\m2html\ReBEL-0.2.7\examples\dual_estimation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\docs\m2html\ReBEL-0.2.7\examples\gssm</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\docs\m2html\ReBEL-0.2.7\examples\joint_estimation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\docs\m2html\ReBEL-0.2.7\examples\parameter_estimation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\docs\m2html\ReBEL-0.2.7\examples\state_estimation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\docs\m2html\ReBEL-0.2.7\netlab</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\examples</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\examples\data</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\examples\dual_estimation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\examples\gssm</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\examples\joint_estimation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\examples\parameter_estimation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\examples\state_estimation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\netlab</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\ReBEL-0.2.7\netlab\nethelp</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Bayesianos</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo2</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo3</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo4</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo5</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo6</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo7</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo7\S-Plus</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo7\S-Plus\.Data</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo7\S-Plus\.Data\__Hhelp</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo7\S-Plus\.Data\__Meta</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo7\S-Plus\.Data\__Shelp</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo7\S-Plus\.Prefs</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo7\TesteOx</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo8</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo8\S-Plus</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo8\S-Plus\.Data</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo8\S-Plus\.Data\__Hhelp</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo8\S-Plus\.Data\__Meta</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo8\S-Plus\.Data\__Shelp</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo8\S-Plus\.Prefs</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.0\Exemplo9</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.1</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.1\Exemplo1 Filtro</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.1\Exemplo2 Lik</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\State Space\Versao 1.1\Exemplo3</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\ALL</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch1_UniVariateDistributions</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch2_MultiVariateDistributions</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch2_MultiVariateDistributions\A_Distributions</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch2_MultiVariateDistributions\A_Distributions\Cdf</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch2_MultiVariateDistributions\A_Distributions\Pdf</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch2_MultiVariateDistributions\A_Distributions\Simulations</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch2_MultiVariateDistributions\A_Distributions\Simulations\Elliptical</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch2_MultiVariateDistributions\B_Copulas</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch2_MultiVariateDistributions\B_Copulas\A_pdf</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch2_MultiVariateDistributions\B_Copulas\B_cdf</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch2_MultiVariateDistributions\B_Copulas\C_Simulations</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch2_MultiVariateDistributions\B_Copulas\D_DependenceStatistics</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch2_MultiVariateDistributions\C_LocationDispersion</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch3_ModellingMarket</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch3_ModellingMarket\A_InvarianceQuest</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch3_ModellingMarket\B_HorizonProjection</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch3_ModellingMarket\C_DimensionReduction</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch3_ModellingMarket\D_Pricing</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch3_ModellingMarket\E_CaseStudySwap</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants\A_Introduction</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants\B_NonParametric</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants\C_MaximumLikelihood</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants\C_MaximumLikelihood\A_UnivariateNormal</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants\C_MaximumLikelihood\B_UnivariateLognormal</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants\C_MaximumLikelihood\C_MultivariateNormal</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants\C_MaximumLikelihood\D_MultivariateT</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants\D_Shrinkage</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants\E_Robust</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants\E_Robust\A_Intro</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants\E_Robust\B_HubertM</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants\E_Robust\C_HighBreakDown</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch4_EstimatingInvariants\F_MissingData</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch5_EvaluatingAllocations</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch5_EvaluatingAllocations\A_StochasticDominance</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch5_EvaluatingAllocations\B_ExpectedUtility</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch5_EvaluatingAllocations\C_ValueAtRisk</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch5_EvaluatingAllocations\D_ExpectedShortfall</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch6_OptimizingAllocations</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch6_OptimizingAllocations\A_AnalyticalExample</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch6_OptimizingAllocations\B_MeanVarianceFramework</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch6_OptimizingAllocations\B_MeanVarianceFramework\Analytitcal</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch6_OptimizingAllocations\B_MeanVarianceFramework\Generic</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch6_OptimizingAllocations\C_TotalReturnVsBenchmark</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch6_OptimizingAllocations\D_CaseStudy</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch7_BayesianEstimation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch8_EvalEstimationRisk</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch8_EvalEstimationRisk\A_EvaluationGeneric</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch8_EvalEstimationRisk\B_PriorAllocation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch8_EvalEstimationRisk\C_SampleBasedAllocation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch9_OptimEstimationRisk</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch9_OptimEstimationRisk\A_BayesAllocation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch9_OptimEstimationRisk\B_BlackLittAllocation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch9_OptimEstimationRisk\C_RobustAllocation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch9_OptimEstimationRisk\C_RobustAllocation\SeDuMi_1_1</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Ch9_OptimEstimationRisk\D_RobustBayesAllocation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Extras</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Extras\COP</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\AMeucciRiskandAssetAllocationRoutines\Extras\IntroMATLAB</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\Copulatoolbox</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\Econometria</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\ElectricityModel</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\ElectricityModel\MFE</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\ElectricityModel\Pic</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\MCMC</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\Marioforni</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\MeanLikelihood</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\MissingData</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\MonteCarlo</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\MonteCarlo\TUM</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\NaN</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\HMM</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\Mendel</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\gmmbayestb-v0.1</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\h2m</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\h2m\cnt</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\h2m\data</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\h2m\doc</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\h2m\doc\html</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\h2m\octave</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\maphmmbox</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\bayes</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\data</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\data\anderson_task</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\data\binary_separable</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\data\gmm_samples</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\data\iris_data</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\data\mm_samples</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\data\multi_separable</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\data\ocr_numerals</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\data\riply_data</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\data\svm_samples</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\demos</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\demos\image_denoising</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\demos\ocr</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\demos\ocr\models</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\demos\ocr\models\bsvm2</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\demos\ocr\models\oaosvm</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\bayes</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\bayes\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\data</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\data\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\demos</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\demos\image_denoising</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\demos\image_denoising\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\demos\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\demos\ocr</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\demos\ocr\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\kernels</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\kernels\extraction</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\kernels\extraction\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\kernels\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\kernels\preimage</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\kernels\preimage\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\linear</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\linear\anderson</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\linear\anderson\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\linear\extraction</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\linear\extraction\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\linear\finite</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\linear\finite\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\linear\fisher</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\linear\fisher\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\linear\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\misc</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\misc\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\probab</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\probab\estimation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\probab\estimation\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\probab\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\quadrat</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\quadrat\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\root</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\root\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\svm</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\svm\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\visual</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\doc\manual\visual\list</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\kernels</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\kernels\extraction</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\kernels\preimage</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\linear</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\linear\anderson</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\linear\extraction</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\linear\finite</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\linear\fisher</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\misc</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\optimization</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\probab</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\probab\estimation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\quadrat</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\svm</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\PatternRecognition\stprtool\visual</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\coint</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\data</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\diagn</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\distrib</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\geoxp</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\gibbs</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\graphs</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\optimize</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\regress</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\casetti_models</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\far_models</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\gmm_models</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\gwr_models</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\lndet_funcs</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\mess_models</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\panel</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\sac_models</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\sar_models</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\sdm_models</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\sem_models</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\semip</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\stats</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\spatial\weights</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ts_aggregation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch\5.3 Win32 Binaries</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch\6.0 Win32 Binaries</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch\BootStrap</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch\Distributions</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch\Garch</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch\Kernel Estimation</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch\MEX Source</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch\MEX Source\Debug</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch\MV Garch</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch\MV Garch\Bekk</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch\MV Garch\Correlation MVGarch</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch\MV Garch\T Bekk</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\ucsd_garch\Tests</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\util</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SpatialEconometrics\var_bvar</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\Ss Pack in MatLab</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\Ss Pack in MatLab\Exemplo8</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\Ss Pack in MatLab\Exemplo8\S-Plus</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\StructuralVar</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SystemIDTool</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\SystemIDTool\unit</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\UnitRoots</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\tsa</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\var-src-0.33-1</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\var-src-0.33-1\bin</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\var-src-0.33-1\doc</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\var-src-0.33-1\doc\html</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\var-src-0.33-1\icons</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Statistics\var-src-0.33-1\mat</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Technicals</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Technicals\old</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Tendencia</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Tendencia\Geracao de Trajetorias</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Tendencia\Originais</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\TendenciaGarch</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\TendenciaVAR</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\TestClass</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\TesteParalelizacao</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\TimeVaryingCoefficients</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Tracking</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Tracking\Backup</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Trading Vola GARCH</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Trading Vola GARCH\.Data</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Trading Vola GARCH\.Data\__Hhelp</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Trading Vola GARCH\.Data\__Meta</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Trading Vola GARCH\.Data\__Shelp</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Trading Vola GARCH\.Prefs</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\TradingRuleTrend</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\TradingRuleTrend\TradingRuleLLT</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\TradingRuleTrend\TradingRuleLLT\distrib</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\TradingRuleTrend\TradingRuleLLT\src</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\TransactionCosts</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\TransactionCosts\workpap</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\TrendCurve</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\Utilities</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\acessoCEA</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\otimCurva</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\otimCurva\debugLinprog</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\otimCurva\debugLinprog\distrib</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\svecmBolsa</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\tensor_toolbox</directory>
+        <directory>W:\SPQ-Private\Users\Global\Independentes\M-Files\utilsCAAF</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\general</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\ops</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\lang</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\elmat</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\randfun</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\elfun</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\specfun</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\matfun</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\datafun</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\polyfun</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\funfun</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\sparfun</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\scribe</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\graph2d</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\graph3d</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\specgraph</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\graphics</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\uitools</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\strfun</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\imagesci</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\iofun</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\audiovideo</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\timefun</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\datatypes</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\verctrl</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\codetools</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\helptools</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\winfun</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\winfun\net</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\demos</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\timeseries</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\hds</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\guide</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\plottools</directory>
+        <directory>${MATLAB_ROOT}\toolbox\local</directory>
+        <directory>${MATLAB_ROOT}\toolbox\matlab\datamanager</directory>
+        <directory>${MATLAB_ROOT}\toolbox\shared\simulink</directory>
+        <directory>${MATLAB_ROOT}\toolbox\shared\instrument</directory>
+        <directory>${MATLAB_ROOT}\toolbox\shared\asynciolib</directory>
+        <directory>${MATLAB_ROOT}\toolbox\shared\comparisons</directory>
+        <directory>${MATLAB_ROOT}\toolbox\compiler</directory>
+        <directory>${MATLAB_ROOT}\toolbox\compiler\compilerdemos</directory>
+        <directory>${MATLAB_ROOT}\toolbox\shared\controllib\general</directory>
+        <directory>${MATLAB_ROOT}\toolbox\shared\controllib\graphics</directory>
+        <directory>${MATLAB_ROOT}\toolbox\database\database</directory>
+        <directory>${MATLAB_ROOT}\toolbox\database\dbdemos</directory>
+        <directory>${MATLAB_ROOT}\toolbox\database\vqb</directory>
+        <directory>${MATLAB_ROOT}\toolbox\distcomp</directory>
+        <directory>${MATLAB_ROOT}\toolbox\distcomp\distcomp</directory>
+        <directory>${MATLAB_ROOT}\toolbox\distcomp\user</directory>
+        <directory>${MATLAB_ROOT}\toolbox\distcomp\mpi</directory>
+        <directory>${MATLAB_ROOT}\toolbox\distcomp\pctdemos</directory>
+        <directory>${MATLAB_ROOT}\toolbox\distcomp\parallel</directory>
+        <directory>${MATLAB_ROOT}\toolbox\distcomp\parallel\util</directory>
+        <directory>${MATLAB_ROOT}\toolbox\distcomp\lang</directory>
+        <directory>${MATLAB_ROOT}\toolbox\distcomp\cluster</directory>
+        <directory>${MATLAB_ROOT}\toolbox\distcomp\gpu</directory>
+        <directory>${MATLAB_ROOT}\toolbox\dotnetbuilder\dotnetbuilder</directory>
+        <directory>${MATLAB_ROOT}\toolbox\dotnetbuilder\dotnetbuilderdemos</directory>
+        <directory>${MATLAB_ROOT}\toolbox\econ\econ</directory>
+        <directory>${MATLAB_ROOT}\toolbox\econ\econdemos</directory>
+        <directory>${MATLAB_ROOT}\toolbox\exlink</directory>
+        <directory>${MATLAB_ROOT}\toolbox\finance\finance</directory>
+        <directory>${MATLAB_ROOT}\toolbox\finance\calendar</directory>
+        <directory>${MATLAB_ROOT}\toolbox\finance\findemos</directory>
+        <directory>${MATLAB_ROOT}\toolbox\finance\finsupport</directory>
+        <directory>${MATLAB_ROOT}\toolbox\finance\ftseries</directory>
+        <directory>${MATLAB_ROOT}\toolbox\globaloptim</directory>
+        <directory>${MATLAB_ROOT}\toolbox\globaloptim\globaloptim</directory>
+        <directory>${MATLAB_ROOT}\toolbox\globaloptim\globaloptimdemos</directory>
+        <directory>${MATLAB_ROOT}\toolbox\javabuilder\javabuilder</directory>
+        <directory>${MATLAB_ROOT}\toolbox\javabuilder\javabuilderdemos</directory>
+        <directory>${MATLAB_ROOT}\toolbox\optim\optim</directory>
+        <directory>${MATLAB_ROOT}\toolbox\optim\optimdemos</directory>
+        <directory>${MATLAB_ROOT}\toolbox\shared\optimlib</directory>
+        <directory>${MATLAB_ROOT}\toolbox\shared\rptgen</directory>
+        <directory>${MATLAB_ROOT}\toolbox\shared\eml\eml</directory>
+        <directory>${MATLAB_ROOT}\toolbox\stats\stats</directory>
+        <directory>${MATLAB_ROOT}\toolbox\stats\statsdemos</directory>
+        <directory>${MATLAB_ROOT}\toolbox\stats\classreg</directory>
+        <directory>${MATLAB_ROOT}\toolbox\shared\statslib</directory>
+        <directory>${MATLAB_ROOT}\toolbox\shared\testmeaslib\general</directory>
+        <directory>${MATLAB_ROOT}\toolbox\shared\testmeaslib\graphics</directory>
       </path>
     </matlab>
     <platform>
-      <unix>true</unix>
-      <mac>true</mac>
-      <windows>false</windows>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
       <win2k>false</win2k>
       <winxp>false</winxp>
       <vista>false</vista>
       <linux>false</linux>
       <solaris>false</solaris>
-      <osver>10.8.2</osver>
+      <osver>6.1</osver>
       <os32>false</os32>
       <os64>true</os64>
-      <arch>maci64</arch>
+      <arch>win64</arch>
       <matlab>true</matlab>
     </platform>
   </configuration>
