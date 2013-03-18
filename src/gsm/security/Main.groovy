@@ -10,6 +10,7 @@ import gsm.security.code.Convolution
 import gsm.security.code.Keygen
 
 import gsm.security.utils.ArrayUtil
+import gsm.security.attack.A52GWG
 
 
 //def start = Calendar.instance
@@ -64,23 +65,23 @@ a522.keysetup(Kc, f2)
     a521.clockingUnit(0);
     a522.clockingUnit(0);
 
-    println "${i}-> R11: ${a521.r1}"
-    println "${i}-> R12: ${a522.r1}"
-    println "-"
-    println ArrayUtil.xorNoAcum(a521.r1, a522.r1)
-    println "--"
-    
-    println "${i}-> R21: ${a521.r2}"
-    println "${i}-> R22: ${a522.r2}"
-    println "-"
-    println ArrayUtil.xorNoAcum(a521.r2, a522.r2)
-    println "--"
-    
-    println "${i}-> R31: ${a521.r3}"
-    println "${i}-> R32: ${a522.r3}"
-    println "-"
-    println ArrayUtil.xorNoAcum(a521.r3, a522.r3)
-    println "--"
+//    println "${i}-> R11: ${a521.r1}"
+//    println "${i}-> R12: ${a522.r1}"
+//    println "-"
+//    println ArrayUtil.xorNoAcum(a521.r1, a522.r1)
+//    println "--"
+//    
+//    println "${i}-> R21: ${a521.r2}"
+//    println "${i}-> R22: ${a522.r2}"
+//    println "-"
+//    println ArrayUtil.xorNoAcum(a521.r2, a522.r2)
+//    println "--"
+//    
+//    println "${i}-> R31: ${a521.r3}"
+//    println "${i}-> R32: ${a522.r3}"
+//    println "-"
+//    println ArrayUtil.xorNoAcum(a521.r3, a522.r3)
+//    println "--"
     
     println "${i}-> R41: ${a521.r4}"
     println "${i}-> R42: ${a522.r4}"
@@ -91,6 +92,7 @@ a522.keysetup(Kc, f2)
 }
 
 
+//A52GWG.reverseR4( a521.r4 )
 
 
 //println keystream1
