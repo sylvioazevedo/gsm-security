@@ -1,0 +1,482 @@
+Ta52hacktool
+v5
+r1
+cCheck dependencies
+cCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/main.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/attack.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/code.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/code.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/convolution.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/convolution.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/firecode.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/firecode.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/interleaving.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/interleaving.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keygen.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keygen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keysetup_reverse.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keysetup_reverse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/matrices_generation.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/matrices_generation.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/utils.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/a52hacktool normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000506D073C00000000000000AA
+t1349322556
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c00000000506725220000000000004523
+t1348936994
+s17699
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdlib.h
+c00000000506725220000000000003089
+t1348936994
+s12425
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h
+c00000000506725220000000000001A3A
+t1348936994
+s6714
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/stat.h
+c00000000506725220000000000004B2F
+t1348936994
+s19247
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/types.h
+c00000000506725220000000000002795
+t1348936994
+s10133
+
+N/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/a52hacktool.LinkFileList
+c000000005078343E0000000000000619
+t1350054974
+s1561
+
+N/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/attack.o
+t2
+s0
+
+N/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/code.o
+t2
+s0
+
+N/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/convolution.o
+t2
+s0
+
+N/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/firecode.o
+t2
+s0
+
+N/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/interleaving.o
+t2
+s0
+
+N/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keygen.o
+t2
+s0
+
+N/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keysetup_reverse.o
+t2
+s0
+
+N/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/matrices_generation.o
+t2
+s0
+
+N/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/utils.o
+t2
+s0
+
+N/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/a52hacktool
+t2
+s0
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c
+c000000004ED81CBC0000000000004E5D
+t1322785980
+s20061
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.h
+c000000004ED81A640000000000001338
+t1322785380
+s4920
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/code.c
+c000000004ED81A6400000000000026A2
+t1322785380
+s9890
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/code.h
+c000000004ED81A640000000000001593
+t1322785380
+s5523
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/const_code.h
+c000000004ED81A280000000000001394
+t1322785320
+s5012
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/convolution.c
+c000000004ED81A280000000000000ECD
+t1322785320
+s3789
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/firecode.c
+c000000004ED81A28000000000000122A
+t1322785320
+s4650
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/interleaving.c
+c000000004ED81A280000000000000CFC
+t1322785320
+s3324
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/keygen.c
+c000000004ED81A280000000000001AC6
+t1322785320
+s6854
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/keygen.h
+c000000004ED81A280000000000000BDF
+t1322785320
+s3039
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/keysetup_reverse.c
+c000000004ED81A280000000000002DCD
+t1322785320
+s11725
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/keysetup_reverse.h
+c000000004ED81A280000000000000DC9
+t1322785320
+s3529
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c
+c000000004ED8453E0000000000004943
+t1322796350
+s18755
+i<stdlib.h>
+i<stdio.h>
+i<string.h>
+i<sys/types.h>
+i<sys/stat.h>
+i"const_code.h"
+i"utils.h"
+i"code.h"
+i"keygen.h"
+i"attack.h"
+i"matrices_generation.h"
+i"keysetup_reverse.h"
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/matrices_generation.c
+c000000004ED81B900000000000006454
+t1322785680
+s25684
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/matrices_generation.h
+c000000004ED81A640000000000000DE0
+t1322785380
+s3552
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.c
+c000000004ED81A640000000000000CD3
+t1322785380
+s3283
+
+N/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h
+c000000004ED81A640000000000005208
+t1322785380
+s21000
+
+CBuild AST from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c
+r0
+
+CBuild AST from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/code.c
+r0
+
+CBuild AST from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/convolution.c
+r0
+
+CBuild AST from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/firecode.c
+r0
+
+CBuild AST from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/interleaving.c
+r0
+
+CBuild AST from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keygen.c
+r0
+
+CBuild AST from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keysetup_reverse.c
+r0
+
+CBuild AST from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c
+r0
+
+CBuild AST from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/matrices_generation.c
+r0
+
+CBuild AST from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies29ed61be6b28b641^03b687be6b28b641^---0#1#0#--18"Check dependencies36"5ECD2F1A-73B3-4376-AF4A-CEFE96EF2981-
+
+CCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/attack.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371747774.534026
+e371747774.755968
+r1
+xCompileC
+xDerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/attack.o
+x/Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c:43:
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined
+o#define DEBUG(msg, ...)                                                                       \
+o        ^
+o<command line>:1:9: note: previous definition is here
+o#define DEBUG 1
+o        ^
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c:480:8: warning: implicit conversion loses integer precision: 'time_t' (aka 'long') to 'unsigned int' [-Wshorten-64-to-32]
+o        srand(time(NULL));
+o        ~~~~~ ^~~~~~~~~~
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.cfcfb88be6b28b641^e8dec3be6b28b641^-618"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c:43:/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined#define DEBUG(msg, ...)                                                                       \        ^<command line>:1:9: note: previous definition is here#define DEBUG 1        ^/Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c:480:8: warning: implicit conversion loses integer precision: 'time_t' (aka 'long') to 'unsigned int' [-Wshorten-64-to-32]        srand(time(NULL));        ~~~~~ ^~~~~~~~~~2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@23"'DEBUG' macro redefined-371747774#18446744073709551615#0#2(2@82"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c:43:-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c0000000000000000^42#9#42#9#2290#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/%3Ccommand%20line%3E0000000000000000^0#8#0#8#4673#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h0000000000000000^178#8#178#8#9714#0#29"Lexical or Preprocessor Issue--2@84"Implicit conversion loses integer precision: 'time_t' (aka 'long') to 'unsigned int'-371747774#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c0000000000000000^479#7#479#7#17723#0#14"Semantic Issue2(3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c0000000000000000^479#7#479#17#17723#9#3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c0000000000000000^479#1#479#6#17717#0#-0#0#0#-19%DVTDocumentLocation4@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c0000000000000000^2998"CompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/attack.o a52hacktool/attack.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sazevedo/Desktop/a52hacktool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-generated-files.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-own-target-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-all-target-headers.hmap -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-project-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources/x86_64 -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources -F/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug -MMD -MT dependencies -MF /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/attack.d --serialize-diagnostics /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/attack.dia -c /Users/sazevedo/Desktop/a52hacktool/a52hacktool/attack.c -o /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/attack.o36"8460EAB1-6311-4809-BA36-ABD567B9940F-
+
+CCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/code.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/code.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371747774.757299
+e371747774.831478
+r1
+xCompileC
+xDerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/code.o
+x/Users/sazevedo/Desktop/a52hacktool/a52hacktool/code.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/code.c:41:
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined
+o#define DEBUG(msg, ...)                                                                       \
+o        ^
+o<command line>:1:9: note: previous definition is here
+o#define DEBUG 1
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/sazevedo/Desktop/a52hacktool/a52hacktool/code.c00fec1be6b28b641^05dbd4be6b28b641^-384"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/code.c:41:/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined#define DEBUG(msg, ...)                                                                       \        ^<command line>:1:9: note: previous definition is here#define DEBUG 1        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"'DEBUG' macro redefined-371747774#18446744073709551615#0#2(2@80"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/code.c:41:-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/code.c0000000000000000^40#9#40#9#2269#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/%3Ccommand%20line%3E0000000000000000^0#8#0#8#4673#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h0000000000000000^178#8#178#8#9714#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/code.c0000000000000000^2986"CompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/code.o a52hacktool/code.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sazevedo/Desktop/a52hacktool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-generated-files.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-own-target-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-all-target-headers.hmap -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-project-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources/x86_64 -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources -F/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug -MMD -MT dependencies -MF /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/code.d --serialize-diagnostics /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/code.dia -c /Users/sazevedo/Desktop/a52hacktool/a52hacktool/code.c -o /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/code.o36"DD97EB20-045C-4CCF-AE35-9E6A3711669B-
+
+CCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/convolution.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/convolution.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371747774.777899
+e371747774.824962
+r1
+xCompileC
+xDerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/convolution.o
+x/Users/sazevedo/Desktop/a52hacktool/a52hacktool/convolution.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/convolution.c:40:
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined
+o#define DEBUG(msg, ...)                                                                       \
+o        ^
+o<command line>:1:9: note: previous definition is here
+o#define DEBUG 1
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/sazevedo/Desktop/a52hacktool/a52hacktool/convolution.c2845c7be6b28b641^fd2fd3be6b28b641^-391"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/convolution.c:40:/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined#define DEBUG(msg, ...)                                                                       \        ^<command line>:1:9: note: previous definition is here#define DEBUG 1        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"'DEBUG' macro redefined-371747774#18446744073709551615#0#2(2@87"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/convolution.c:40:-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@77"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/convolution.c0000000000000000^39#9#39#9#2290#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/%3Ccommand%20line%3E0000000000000000^0#8#0#8#4673#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h0000000000000000^178#8#178#8#9714#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@77"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/convolution.c0000000000000000^3028"CompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/convolution.o a52hacktool/convolution.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sazevedo/Desktop/a52hacktool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-generated-files.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-own-target-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-all-target-headers.hmap -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-project-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources/x86_64 -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources -F/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug -MMD -MT dependencies -MF /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/convolution.d --serialize-diagnostics /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/convolution.dia -c /Users/sazevedo/Desktop/a52hacktool/a52hacktool/convolution.c -o /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/convolution.o36"1A05F8D9-000D-44A6-9083-8ADAE09C42CB-
+
+CCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/firecode.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/firecode.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371747774.826292
+e371747774.877776
+r1
+xCompileC
+xDerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/firecode.o
+x/Users/sazevedo/Desktop/a52hacktool/a52hacktool/firecode.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/firecode.c:41:
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined
+o#define DEBUG(msg, ...)                                                                       \
+o        ^
+o<command line>:1:9: note: previous definition is here
+o#define DEBUG 1
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/sazevedo/Desktop/a52hacktool/a52hacktool/firecode.c61a8d3be6b28b641^34bde0be6b28b641^-388"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/firecode.c:41:/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined#define DEBUG(msg, ...)                                                                       \        ^<command line>:1:9: note: previous definition is here#define DEBUG 1        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"'DEBUG' macro redefined-371747774#18446744073709551615#0#2(2@84"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/firecode.c:41:-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@74"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/firecode.c0000000000000000^40#9#40#9#2279#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/%3Ccommand%20line%3E0000000000000000^0#8#0#8#4673#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h0000000000000000^178#8#178#8#9714#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@74"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/firecode.c0000000000000000^3010"CompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/firecode.o a52hacktool/firecode.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sazevedo/Desktop/a52hacktool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-generated-files.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-own-target-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-all-target-headers.hmap -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-project-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources/x86_64 -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources -F/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug -MMD -MT dependencies -MF /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/firecode.d --serialize-diagnostics /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/firecode.dia -c /Users/sazevedo/Desktop/a52hacktool/a52hacktool/firecode.c -o /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/firecode.o36"F1F812FC-1E0B-4EEA-A688-37CC540AD9EA-
+
+CCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/interleaving.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/interleaving.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371747774.833041
+e371747774.880295
+r1
+xCompileC
+xDerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/interleaving.o
+x/Users/sazevedo/Desktop/a52hacktool/a52hacktool/interleaving.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/interleaving.c:41:
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined
+o#define DEBUG(msg, ...)                                                                       \
+o        ^
+o<command line>:1:9: note: previous definition is here
+o#define DEBUG 1
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/sazevedo/Desktop/a52hacktool/a52hacktool/interleaving.c467ad5be6b28b641^3a5ae1be6b28b641^-392"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/interleaving.c:41:/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined#define DEBUG(msg, ...)                                                                       \        ^<command line>:1:9: note: previous definition is here#define DEBUG 1        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"'DEBUG' macro redefined-371747774#18446744073709551615#0#2(2@88"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/interleaving.c:41:-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/interleaving.c0000000000000000^40#9#40#9#2291#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/%3Ccommand%20line%3E0000000000000000^0#8#0#8#4673#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h0000000000000000^178#8#178#8#9714#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/interleaving.c0000000000000000^3034"CompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/interleaving.o a52hacktool/interleaving.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sazevedo/Desktop/a52hacktool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-generated-files.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-own-target-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-all-target-headers.hmap -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-project-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources/x86_64 -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources -F/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug -MMD -MT dependencies -MF /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/interleaving.d --serialize-diagnostics /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/interleaving.dia -c /Users/sazevedo/Desktop/a52hacktool/a52hacktool/interleaving.c -o /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/interleaving.o36"59B45ED7-55D0-4E7B-B9F8-E41D23A1F8C8-
+
+CCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keygen.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keygen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371747774.879235
+e371747774.935060
+r1
+xCompileC
+xDerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keygen.o
+x/Users/sazevedo/Desktop/a52hacktool/a52hacktool/keygen.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keygen.c:45:
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined
+o#define DEBUG(msg, ...)                                                                       \
+o        ^
+o<command line>:1:9: note: previous definition is here
+o#define DEBUG 1
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keygen.cce38e1be6b28b641^4e5fefbe6b28b641^-386"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keygen.c:45:/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined#define DEBUG(msg, ...)                                                                       \        ^<command line>:1:9: note: previous definition is here#define DEBUG 1        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"'DEBUG' macro redefined-371747774#18446744073709551615#0#2(2@82"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keygen.c:45:-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/keygen.c0000000000000000^44#9#44#9#2440#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/%3Ccommand%20line%3E0000000000000000^0#8#0#8#4673#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h0000000000000000^178#8#178#8#9714#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/keygen.c0000000000000000^2998"CompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keygen.o a52hacktool/keygen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sazevedo/Desktop/a52hacktool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-generated-files.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-own-target-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-all-target-headers.hmap -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-project-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources/x86_64 -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources -F/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug -MMD -MT dependencies -MF /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keygen.d --serialize-diagnostics /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keygen.dia -c /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keygen.c -o /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keygen.o36"50B6F4A9-1D79-48F2-949E-6481219830DB-
+
+CCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keysetup_reverse.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keysetup_reverse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371747774.881751
+e371747774.945510
+r1
+xCompileC
+xDerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keysetup_reverse.o
+x/Users/sazevedo/Desktop/a52hacktool/a52hacktool/keysetup_reverse.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keysetup_reverse.c:40:
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined
+o#define DEBUG(msg, ...)                                                                       \
+o        ^
+o<command line>:1:9: note: previous definition is here
+o#define DEBUG 1
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keysetup_reverse.ce8d8e1be6b28b641^30f2f2be6b28b641^-396"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keysetup_reverse.c:40:/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined#define DEBUG(msg, ...)                                                                       \        ^<command line>:1:9: note: previous definition is here#define DEBUG 1        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"'DEBUG' macro redefined-371747774#18446744073709551615#0#2(2@92"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keysetup_reverse.c:40:-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@82"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/keysetup_reverse.c0000000000000000^39#9#39#9#2293#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/%3Ccommand%20line%3E0000000000000000^0#8#0#8#4673#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h0000000000000000^178#8#178#8#9714#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@82"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/keysetup_reverse.c0000000000000000^3058"CompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keysetup_reverse.o a52hacktool/keysetup_reverse.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sazevedo/Desktop/a52hacktool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-generated-files.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-own-target-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-all-target-headers.hmap -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-project-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources/x86_64 -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources -F/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug -MMD -MT dependencies -MF /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keysetup_reverse.d --serialize-diagnostics /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keysetup_reverse.dia -c /Users/sazevedo/Desktop/a52hacktool/a52hacktool/keysetup_reverse.c -o /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/keysetup_reverse.o36"FC9F2F7F-1D74-467F-A97C-CB2AA48E8252-
+
+CCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/main.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371747774.533248
+e371747774.776386
+r1
+xCompileC
+xDerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/main.o
+x/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:64:
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined
+o#define DEBUG(msg, ...)                                                                       \
+o        ^
+o<command line>:1:9: note: previous definition is here
+o#define DEBUG 1
+o        ^
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:344:4: warning: implicit conversion loses integer precision: 'long' to 'unsigned int' [-Wshorten-64-to-32]
+o                        _LOAD_SOURCE
+o                        ^~~~~~~~~~~~
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:327:52: note: expanded from macro '_LOAD_SOURCE'
+o        fseek(sourcefile, 0, SEEK_END); filesize = ftell(sourcefile); fseek(sourcefile, 0, SEEK_SET);
+o                                                 ~ ^~~~~~~~~~~~~~~~~
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:351:23: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+o                        while ((dataread = fread(sourceword_ByteBuffer, sizeof(byte), SOURCEWORD_LENGTH/8, sourcefile))) {
+o                                         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:382:4: warning: implicit conversion loses integer precision: 'long' to 'unsigned int' [-Wshorten-64-to-32]
+o                        _LOAD_SOURCE
+o                        ^~~~~~~~~~~~
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:327:52: note: expanded from macro '_LOAD_SOURCE'
+o        fseek(sourcefile, 0, SEEK_END); filesize = ftell(sourcefile); fseek(sourcefile, 0, SEEK_SET);
+o                                                 ~ ^~~~~~~~~~~~~~~~~
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:387:23: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+o                        while ((dataread = fread(codeword_ByteBuffer, sizeof(byte), CODEWORD_LENGTH/8, sourcefile))) {
+o                                         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:418:4: warning: implicit conversion loses integer precision: 'long' to 'unsigned int' [-Wshorten-64-to-32]
+o                        _LOAD_SOURCE
+o                        ^~~~~~~~~~~~
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:327:52: note: expanded from macro '_LOAD_SOURCE'
+o        fseek(sourcefile, 0, SEEK_END); filesize = ftell(sourcefile); fseek(sourcefile, 0, SEEK_SET);
+o                                                 ~ ^~~~~~~~~~~~~~~~~
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:425:23: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+o                        while ((dataread = fread(encrword_ByteBuffer, sizeof(byte), CODEWORD_LENGTH/8, sourcefile))) {
+o                                         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:454:4: warning: implicit conversion loses integer precision: 'long' to 'unsigned int' [-Wshorten-64-to-32]
+o                        _LOAD_SOURCE
+o                        ^~~~~~~~~~~~
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:327:52: note: expanded from macro '_LOAD_SOURCE'
+o        fseek(sourcefile, 0, SEEK_END); filesize = ftell(sourcefile); fseek(sourcefile, 0, SEEK_SET);
+o                                                 ~ ^~~~~~~~~~~~~~~~~
+o8 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c33a688be6b28b641^c6c0c6be6b28b641^-3673"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:64:/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined#define DEBUG(msg, ...)                                                                       \        ^<command line>:1:9: note: previous definition is here#define DEBUG 1        ^/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:344:4: warning: implicit conversion loses integer precision: 'long' to 'unsigned int' [-Wshorten-64-to-32]                        _LOAD_SOURCE                        ^~~~~~~~~~~~/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:327:52: note: expanded from macro '_LOAD_SOURCE'        fseek(sourcefile, 0, SEEK_END); filesize = ftell(sourcefile); fseek(sourcefile, 0, SEEK_SET);                                                 ~ ^~~~~~~~~~~~~~~~~/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:351:23: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]                        while ((dataread = fread(sourceword_ByteBuffer, sizeof(byte), SOURCEWORD_LENGTH/8, sourcefile))) {                                         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:382:4: warning: implicit conversion loses integer precision: 'long' to 'unsigned int' [-Wshorten-64-to-32]                        _LOAD_SOURCE                        ^~~~~~~~~~~~/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:327:52: note: expanded from macro '_LOAD_SOURCE'        fseek(sourcefile, 0, SEEK_END); filesize = ftell(sourcefile); fseek(sourcefile, 0, SEEK_SET);                                                 ~ ^~~~~~~~~~~~~~~~~/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:387:23: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]                        while ((dataread = fread(codeword_ByteBuffer, sizeof(byte), CODEWORD_LENGTH/8, sourcefile))) {                                         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:418:4: warning: implicit conversion loses integer precision: 'long' to 'unsigned int' [-Wshorten-64-to-32]                        _LOAD_SOURCE                        ^~~~~~~~~~~~/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:327:52: note: expanded from macro '_LOAD_SOURCE'        fseek(sourcefile, 0, SEEK_END); filesize = ftell(sourcefile); fseek(sourcefile, 0, SEEK_SET);                                                 ~ ^~~~~~~~~~~~~~~~~/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:425:23: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]                        while ((dataread = fread(encrword_ByteBuffer, sizeof(byte), CODEWORD_LENGTH/8, sourcefile))) {                                         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:454:4: warning: implicit conversion loses integer precision: 'long' to 'unsigned int' [-Wshorten-64-to-32]                        _LOAD_SOURCE                        ^~~~~~~~~~~~/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:327:52: note: expanded from macro '_LOAD_SOURCE'        fseek(sourcefile, 0, SEEK_END); filesize = ftell(sourcefile); fseek(sourcefile, 0, SEEK_SET);                                                 ~ ^~~~~~~~~~~~~~~~~8 warnings generated.8(36%IDEClangDiagnosticActivityLogMessage2@23"'DEBUG' macro redefined-371747774#18446744073709551615#0#2(2@80"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c:64:-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^63#9#63#9#3422#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/%3Ccommand%20line%3E0000000000000000^0#8#0#8#4673#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h0000000000000000^178#8#178#8#9714#0#29"Lexical or Preprocessor Issue--2@69"Implicit conversion loses integer precision: 'long' to 'unsigned int'-371747774#18446744073709551615#0#1(2@34"Expanded from macro '_LOAD_SOURCE'-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^326#51#326#51#11892#0#21"Clang LLVM 1.0 Notice2(3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^326#51#326#68#11892#16#3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^326#49#326#50#11890#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^343#3#343#3#568#0#14"Semantic Issue2(3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^343#3#343#15#568#16#3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^343#3#343#15#566#0#-2@84"Implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int'-371747774#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^350#22#350#22#12804#0#14"Semantic Issue2(3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^350#22#350#97#12804#74#3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^350#20#350#21#12802#0#-2@69"Implicit conversion loses integer precision: 'long' to 'unsigned int'-371747774#18446744073709551615#0#1(2@34"Expanded from macro '_LOAD_SOURCE'-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^326#51#326#51#11892#0#21"Clang LLVM 1.0 Notice2(3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^326#51#326#68#11892#16#3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^326#49#326#50#11890#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^381#3#381#3#568#0#14"Semantic Issue2(3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^381#3#381#15#568#16#3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^381#3#381#15#566#0#-2@84"Implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int'-371747774#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^386#22#386#22#14025#0#14"Semantic Issue2(3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^386#22#386#93#14025#70#3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^386#20#386#21#14023#0#-2@69"Implicit conversion loses integer precision: 'long' to 'unsigned int'-371747774#18446744073709551615#0#1(2@34"Expanded from macro '_LOAD_SOURCE'-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^326#51#326#51#11892#0#21"Clang LLVM 1.0 Notice2(3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^326#51#326#68#11892#16#3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^326#49#326#50#11890#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^417#3#417#3#568#0#14"Semantic Issue2(3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^417#3#417#15#568#16#3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^417#3#417#15#566#0#-2@84"Implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int'-371747774#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^424#22#424#22#15246#0#14"Semantic Issue2(3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^424#22#424#93#15246#70#3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^424#20#424#21#15244#0#-2@69"Implicit conversion loses integer precision: 'long' to 'unsigned int'-371747774#18446744073709551615#0#1(2@34"Expanded from macro '_LOAD_SOURCE'-371747774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^326#51#326#51#11892#0#21"Clang LLVM 1.0 Notice2(3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^326#51#326#68#11892#16#3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^326#49#326#50#11890#0#-1#27"com.apple.dt.IDE.diagnostic3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^453#3#453#3#568#0#14"Semantic Issue2(3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^453#3#453#15#568#16#3@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^453#3#453#15#566#0#-0#0#0#-19%DVTDocumentLocation4@70"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c0000000000000000^2986"CompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/main.o a52hacktool/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sazevedo/Desktop/a52hacktool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-generated-files.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-own-target-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-all-target-headers.hmap -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-project-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources/x86_64 -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources -F/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug -MMD -MT dependencies -MF /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/main.dia -c /Users/sazevedo/Desktop/a52hacktool/a52hacktool/main.c -o /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/main.o36"96925CB1-CD46-4E8E-871E-FCCB4E46DF08-
+
+CCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/matrices_generation.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/matrices_generation.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371747774.946677
+e371747775.094517
+r1
+xCompileC
+xDerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/matrices_generation.o
+x/Users/sazevedo/Desktop/a52hacktool/a52hacktool/matrices_generation.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/matrices_generation.c:43:
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined
+o#define DEBUG(msg, ...)                                                                       \
+o        ^
+o<command line>:1:9: note: previous definition is here
+o#define DEBUG 1
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/sazevedo/Desktop/a52hacktool/a52hacktool/matrices_generation.c4b78f2be6b28b641^d33018bf6b28b641^-399"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/matrices_generation.c:43:/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined#define DEBUG(msg, ...)                                                                       \        ^<command line>:1:9: note: previous definition is here#define DEBUG 1        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"'DEBUG' macro redefined-371747775#18446744073709551615#0#2(2@95"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/matrices_generation.c:43:-371747775#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@85"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/matrices_generation.c0000000000000000^42#9#42#9#2343#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-371747775#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/%3Ccommand%20line%3E0000000000000000^0#8#0#8#4673#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h0000000000000000^178#8#178#8#9714#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@85"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/matrices_generation.c0000000000000000^3076"CompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/matrices_generation.o a52hacktool/matrices_generation.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sazevedo/Desktop/a52hacktool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-generated-files.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-own-target-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-all-target-headers.hmap -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-project-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources/x86_64 -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources -F/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug -MMD -MT dependencies -MF /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/matrices_generation.d --serialize-diagnostics /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/matrices_generation.dia -c /Users/sazevedo/Desktop/a52hacktool/a52hacktool/matrices_generation.c -o /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/matrices_generation.o36"E1F37734-FE55-47E1-AF07-25D648424EBC-
+
+CCompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/utils.o /Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s371747774.962266
+e371747775.069679
+r1
+xCompileC
+xDerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/utils.o
+x/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.c:42:
+o/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined
+o#define DEBUG(msg, ...)                                                                       \
+o        ^
+o<command line>:1:9: note: previous definition is here
+o#define DEBUG 1
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.c5ddef8be6b28b641^bf8012bf6b28b641^-385"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.c:42:/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h:179:9: warning: 'DEBUG' macro redefined#define DEBUG(msg, ...)                                                                       \        ^<command line>:1:9: note: previous definition is here#define DEBUG 1        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"'DEBUG' macro redefined-371747775#18446744073709551615#0#2(2@81"In file included from /Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.c:42:-371747775#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@71"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.c0000000000000000^41#9#41#9#2275#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-371747775#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@72"file://localhost/Users/sazevedo/Desktop/a52hacktool/%3Ccommand%20line%3E0000000000000000^0#8#0#8#4673#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.h0000000000000000^178#8#178#8#9714#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@71"file://localhost/Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.c0000000000000000^2992"CompileC DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/utils.o a52hacktool/utils.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sazevedo/Desktop/a52hacktool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-generated-files.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-own-target-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-all-target-headers.hmap -iquote /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/a52hacktool-project-headers.hmap -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources/x86_64 -I/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/DerivedSources -F/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug -MMD -MT dependencies -MF /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/utils.d --serialize-diagnostics /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/utils.dia -c /Users/sazevedo/Desktop/a52hacktool/a52hacktool/utils.c -o /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/utils.o36"D781F91E-2B35-4458-A263-E2F597BFAC0C-
+
+CLd /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/a52hacktool normal x86_64
+s371747775.101179
+e371747775.187974
+r1
+xLd
+x/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/a52hacktool
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Link /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/a52hacktool69fd19bf6b28b641^e62030bf6b28b641^---0#0#0#--844"Ld DerivedData/a52hacktool/Build/Products/Debug/a52hacktool normal x86_64    cd /Users/sazevedo/Desktop/a52hacktool    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug -F/Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug -filelist /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Intermediates/a52hacktool.build/Debug/a52hacktool.build/Objects-normal/x86_64/a52hacktool.LinkFileList -mmacosx-version-min=10.8 -o /Users/sazevedo/Desktop/a52hacktool/DerivedData/a52hacktool/Build/Products/Debug/a52hacktool36"660E84CC-70ED-4AA7-8CFC-40776FD0C484-
+
